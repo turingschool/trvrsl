@@ -1,0 +1,43 @@
+{
+  "name": "trvsl.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-static start",
+    "build": "react-static build",
+    "flow": "flow ./src",
+    "lint": "eslint ./src "
+  },
+  "dependencies": {
+    "emotion": "9.1.2",
+    "emotion-server": "9.1.2",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-emotion": "9.1.2",
+    "react-hot-loader": "4.1.1",
+    "react-markdown": "3.3.0",
+    "react-static": "5.8.1",
+    "recompose": "0.27.0"
+  },
+  "devDependencies": {
+    "babel-preset-mkitt": "3.0.0",
+    "eslint": "4.19.1",
+    "eslint-config-mkitt": "4.3.0",
+    "flow-bin": "0.70.0"
+  },
+  "babel": {
+    "extends": "react-static/.babelrc",
+    "presets": [
+      "mkitt"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "Firefox ESR"
+  ],
+  "eslintConfig": {
+    "extends": "mkitt"
+  }
+}
