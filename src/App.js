@@ -6,6 +6,7 @@ import { hot } from 'react-hot-loader'
 // $FlowFixMe (auto generated from `./static.config.js`)
 import Routes from 'react-static-routes'
 /* eslint-enable import/no-unresolved, import/extensions */
+import Footer from './modules/Footer'
 import NavBar from './modules/NavBar'
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
         <Routes />
       </main>
       <NavBar />
+      <Footer />
     </Fragment>
   </Router>
 )

@@ -2,13 +2,7 @@
 import React from 'react'
 import { scrollTo } from 'react-static'
 import { compose, pure, withStateHandlers } from 'recompose'
-import { Nav, NavLinks, NavLink, Toggle } from '../elements/NavBar'
-
-type Props = {
-  isOpen: boolean,
-  handleAnchorClick: () => void,
-  handleToggle: () => void,
-}
+import { Nav, NavLinks, NavLink, Toggle } from '../elements/NavBarElements'
 
 const getHref = target => (
   target && target.getAttribute('href').slice(1)
@@ -38,6 +32,12 @@ const withState = withStateHandlers(
     }),
   },
 )
+
+type Props = {
+  isOpen: boolean,
+  handleAnchorClick: () => void,
+  handleToggle: () => void,
+}
 
 const NavBar = (props: Props) => (
   <Nav isOpen={props.isOpen}>

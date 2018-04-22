@@ -14,7 +14,7 @@ export const GLOBAL_CSS = `
   box-sizing: border-box;
 }
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 100%;
   font-style: normal;
   font-weight: 400;

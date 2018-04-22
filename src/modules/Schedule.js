@@ -1,22 +1,32 @@
 // @flow
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
+import styled from 'react-emotion'
+import Article from '../elements/Article'
+import BaseSection from '../elements/Section'
+import Heading from '../elements/Heading'
 import MarkdownHeadings from '../elements/MarkdownHeadings'
-import { Section, Title } from '../elements/Schedule'
+import Title from '../elements/Title'
+
+const Section = styled(BaseSection)({
+  backgroundColor: '#eee',
+})
+
+const components = ({
+  heading: props => MarkdownHeadings(props, [Title, Heading]),
+  root: Article,
+})
+
+// -------------------------------------
 
 type Props = {
   source: string,
 }
 
-const components = () => ({
-  heading: props => MarkdownHeadings(props, [Title]),
-  root: Section,
-})
-
 export default (props: Props) => (
   <Section id="schedule">
     <ReactMarkdown
-      renderers={components()}
+      renderers={components}
       source={props.source}
     />
   </Section>
