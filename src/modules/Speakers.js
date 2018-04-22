@@ -2,10 +2,10 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
+import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import Card from '../blocks/Card'
 import Article from '../elements/Article'
 import BaseSection from '../elements/Section'
-import MarkdownHeadings from '../elements/MarkdownHeadings'
 import Paragraph from '../elements/Paragraph'
 import Title from '../elements/Title'
 
@@ -22,7 +22,7 @@ const Cards = styled.div({
 })
 
 const components = ({
-  heading: props => MarkdownHeadings(props, [Title]),
+  heading: props => assignMarkdownHeadings(props, [Title]),
   paragraph: Paragraph,
   root: Article,
 })

@@ -2,10 +2,10 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
+import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import Article from '../elements/Article'
 import BaseSection from '../elements/Section'
 import Heading from '../elements/Heading'
-import MarkdownHeadings from '../elements/MarkdownHeadings'
 import Title from '../elements/Title'
 
 const Section = styled(BaseSection)({
@@ -13,7 +13,7 @@ const Section = styled(BaseSection)({
 })
 
 const components = ({
-  heading: props => MarkdownHeadings(props, [Title, Heading]),
+  heading: props => assignMarkdownHeadings(props, [Title, Heading]),
   root: Article,
 })
 

@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
-import MarkdownHeadings from '../elements/MarkdownHeadings'
+import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 
 const Card = styled.div({
   outline: '1px dotted blue',
@@ -19,7 +19,7 @@ const Paragraph = styled.p({
 })
 
 const components = ({
-  heading: props => MarkdownHeadings(props, [Title, Title]),
+  heading: props => assignMarkdownHeadings(props, [Title, Title]),
   paragraph: Paragraph,
   root: Card,
 })

@@ -2,9 +2,9 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
+import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import Article from '../elements/Article'
 import Img from '../elements/ResponsiveImg'
-import MarkdownHeadings from '../elements/MarkdownHeadings'
 import { TrvrslIcon } from '../elements/Icons'
 
 const Section = styled.section({
@@ -33,7 +33,7 @@ const LineArt = styled(Img)({
 })
 
 const components = ({
-  heading: props => MarkdownHeadings(props, [Title]),
+  heading: props => assignMarkdownHeadings(props, [Title]),
   paragraph: Paragraph,
   root: Article,
 })
