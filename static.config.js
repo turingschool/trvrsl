@@ -3,6 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import React, { type ComponentType } from 'react'
 import { extractCritical } from 'emotion-server'
+import { camelize } from 'humps'
 import Document, { type RenderMeta } from './src/templates/Document'
 
 const getDocs = () => {
@@ -11,9 +12,10 @@ const getDocs = () => {
   const filenames = fs.readdirSync(docsDir)
   const files = filenames.filter(filename => path.extname(filename) === '.md')
   files.forEach((filename) => {
-    const key = path.basename(filename, '.md').toLowerCase()
+    const key = camelize(path.basename(filename, '.md').toLowerCase())
     docs[key] = fs.readFileSync(path.join(docsDir, filename), 'utf-8')
   })
+  console.log(Object.keys(docs))
   return docs
 }
 
@@ -54,7 +56,7 @@ export default {
         path: '/anti-harrassment-policy',
         component: 'src/pages/Content',
         getData: () => ({
-          source: docs.harrassment,
+          source: docs.antiHarrassmentPolicy,
         }),
       },
       {
