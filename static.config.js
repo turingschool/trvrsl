@@ -19,7 +19,8 @@ const getDocs = () => {
 
 export default {
   // preact: true,
-  siteRoot: 'https://turing.github.io/trvrsl',
+  basePath: 'trvrsl',
+  siteRoot: 'https://turing.github.io',
   paths: {
     devDist: '.scratch/dev-server',
   },
