@@ -3,7 +3,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
 import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
-import Card from '../blocks/Card'
+import Card from '../blocks/SpeakerCard'
 import Article from '../elements/Article'
 import BaseSection from '../elements/Section'
 import Paragraph from '../elements/Paragraph'
@@ -18,7 +18,7 @@ const Cards = styled.div({
   gridTemplateColumns: 'repeat(auto-fill, minmax(19rem, 1fr))',
   gridGap: '1rem',
   maxWidth: '81rem',
-  margin: '0 auto',
+  margin: '3rem auto 0',
 })
 
 const components = ({

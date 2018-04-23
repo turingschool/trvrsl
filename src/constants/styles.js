@@ -9,6 +9,14 @@ export const EASE = Object.freeze({
   IN_OUT_CUBIC: 'cubic-bezier(0.645, 0.045, 0.355, 1)',
 })
 
+export const MQ = Object.freeze({
+  MIN_BREAK_40: '@media (min-width: 40em)',
+})
+
+export const Z = Object.freeze({
+  NAVBAR: 10,
+})
+
 export const GLOBAL_CSS = `
 *, *::before, *::after {
   box-sizing: border-box;
@@ -39,5 +47,21 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: inherit;
   background-color: transparent;
+}
+button {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  vertical-align: middle;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: button;
 }
 `.replace(/\n/g, '').replace(', ', ',').replace(' {', '{')

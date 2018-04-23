@@ -27,7 +27,7 @@ export default class extends React.Component<Props> {
         <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,400" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,400,700" rel="stylesheet" />
           { /* eslint-disable react/no-danger */ }
           <style dangerouslySetInnerHTML={{ __html: GLOBAL_CSS + renderMeta.css }} />
           <script dangerouslySetInnerHTML={{ __html: `window.hydrateStyleIds = ${JSON.stringify(renderMeta.ids)};` }} />

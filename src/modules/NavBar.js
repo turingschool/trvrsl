@@ -2,7 +2,8 @@
 import React from 'react'
 import { scrollTo } from 'react-static'
 import { compose, pure, withStateHandlers } from 'recompose'
-import { Nav, NavLinks, NavLink, Toggle } from '../elements/NavBarElements'
+import { Gradient, Nav, NavLinks, NavLink, Toggle } from '../elements/NavBarElements'
+import { MenuIcon, XIcon } from '../elements/Icons'
 
 const getHref = target => (
   target && target.getAttribute('href').slice(1)
@@ -41,15 +42,18 @@ type Props = {
 
 const NavBar = (props: Props) => (
   <Nav isOpen={props.isOpen}>
-    <Toggle onClick={props.handleToggle}>Navigation</Toggle>
+    <Toggle isOpen={props.isOpen} onClick={props.handleToggle}>
+      { props.isOpen ? <XIcon /> : <MenuIcon /> }
+    </Toggle>
     <NavLinks isOpen={props.isOpen}>
-      <NavLink onClick={props.handleAnchorClick} href="#hello">Hello</NavLink>
+      <NavLink onClick={props.handleAnchorClick} href="#introduction">Introduction</NavLink>
       <NavLink onClick={props.handleAnchorClick} href="#schedule">Schedule</NavLink>
       <NavLink onClick={props.handleAnchorClick} href="#attendees">Attendees</NavLink>
       <NavLink onClick={props.handleAnchorClick} href="#location">Location</NavLink>
       <NavLink onClick={props.handleAnchorClick} href="#speakers">Speakers</NavLink>
       <NavLink onClick={props.handleAnchorClick} href="#contact">Contact</NavLink>
     </NavLinks>
+    <Gradient isOpen={props.isOpen} />
   </Nav>
 )
 

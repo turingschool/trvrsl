@@ -9,18 +9,8 @@ import Paragraph from '../elements/Paragraph'
 import Title from '../elements/Title'
 
 const Section = styled(BaseSection)({
-  position: 'relative',
   color: '#fff',
   backgroundImage: 'linear-gradient(-180deg, #00faff 0%, #00e8ff 20%, #0091ff 100%)',
-  '&::after': {
-    content: '""',
-    position: 'absolute',
-    right: 0,
-    bottom: 0,
-    left: 0,
-    height: '2rem',
-    backgroundImage: 'linear-gradient(-90deg, #ff0092 0%, #d800ff 100%)',
-  },
 })
 
 const components = ({

@@ -7,11 +7,15 @@ import { TrvrslFooterIcon } from '../elements/Icons'
 const Footer = styled.footer({
   display: 'flex',
   alignItems: 'center',
-  minHeight: 88,
+  maxWidth: '58rem',
+  minHeight: '7rem',
+  margin: '0 auto',
+  color: '#4a4a4a',
   backgroundColor: '#fff',
 })
 
 const Logo = styled(TrvrslFooterIcon)({
+  marginRight: '2rem',
 })
 
 const Copy = styled.p({

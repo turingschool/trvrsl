@@ -35,12 +35,15 @@ export default {
   }),
   getRoutes: async () => {
     const docs = await getDocs()
+    const [scheduleSource, ...scheduleCards] = docs.schedule.split(/\n(?=#{1,2}\s)/)
     const [speakersSource, ...speakersCards] = docs.speakers.split(/\n(?=#{1,2}\s)/)
     return [
       {
         path: '/',
         component: 'src/pages/Home',
         getData: () => ({
+          scheduleCards,
+          scheduleSource,
           speakersCards,
           speakersSource,
           ...docs,

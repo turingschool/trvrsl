@@ -2,38 +2,98 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
+import { MQ } from '../constants/styles'
 import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import Article from '../elements/Article'
+import BaseList from '../elements/List'
 import Img from '../elements/ResponsiveImg'
+import PillLink from '../elements/PillLink'
 import { TrvrslIcon } from '../elements/Icons'
 
 const Section = styled.section({
-  padding: '8rem 1rem 0',
+  paddingTop: '4rem',
   textAlign: 'center',
   color: '#fff',
   backgroundColor: '#000',
+  [MQ.MIN_BREAK_40]: {
+    paddingTop: '8rem',
+  },
 })
 
 const Logo = styled(TrvrslIcon)({
-  marginBottom: '8rem',
-})
-
-const Title = styled.h1({
-  fontSize: '3rem',
-  fontWeight: 300,
-})
-
-const Paragraph = styled.p({
-  fontSize: '2rem',
-  fontWeight: 200,
+  marginBottom: '4rem',
+  [MQ.MIN_BREAK_40]: {
+    marginBottom: '8rem',
+  },
 })
 
 const LineArt = styled(Img)({
-  marginTop: '8rem',
+  display: 'block',
+  marginTop: '4rem',
+  maxHeight: 788,
+  [MQ.MIN_BREAK_40]: {
+    marginTop: '8rem',
+  },
+})
+
+const Title = styled.h1({
+  padding: '0 1rem',
+  fontSize: '2.5rem',
+  fontWeight: 300,
+  [MQ.MIN_BREAK_40]: {
+    padding: 0,
+    fontSize: '3rem',
+  },
+})
+
+const Paragraph = styled.p({
+  padding: '0 1rem',
+  fontSize: '1rem',
+  fontWeight: 200,
+  [MQ.MIN_BREAK_40]: {
+    padding: 0,
+    fontSize: '2rem',
+  },
+})
+
+const List = styled(BaseList)({
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  margin: '3rem 0 0 -1rem',
+  [MQ.MIN_BREAK_40]: {
+    flexDirection: 'row',
+  },
+})
+
+const ListItem = styled.li({
+  display: 'flex',
+  marginBottom: '1rem',
+  [MQ.MIN_BREAK_40]: {
+    marginBottom: 0,
+    marginLeft: '1rem',
+  },
+})
+
+const Link = styled(PillLink)({
+  color: '#bfbdbd',
+  backgroundClip: 'content-box, border-box',
+  backgroundColor: 'transparent',
+  backgroundImage: 'linear-gradient(#000, #000), linear-gradient(90deg, #d800ff, #ff0092)',
+  backgroundOrigin: 'border-box',
+  borderColor: 'transparent',
+  'li + li > &': {
+    backgroundImage: 'linear-gradient(#000, #000), linear-gradient(90deg, #0091ff, #00faff)',
+  },
 })
 
 const components = ({
   heading: props => assignMarkdownHeadings(props, [Title]),
+  link: Link,
+  linkReference: Link,
+  list: List,
+  listItem: ListItem,
   paragraph: Paragraph,
   root: Article,
 })
@@ -45,7 +105,7 @@ type Props = {
 }
 
 export default (props: Props) => (
-  <Section id="hello">
+  <Section id="introduction">
     <Logo />
     <ReactMarkdown
       renderers={components}
@@ -54,7 +114,7 @@ export default (props: Props) => (
     <LineArt
       alt="trvrsl line art"
       src="/trvrsl-lineart.png"
-      width={1440}
+      width="100%"
       height={788}
     />
   </Section>

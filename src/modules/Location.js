@@ -4,18 +4,40 @@ import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
 import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import Article from '../elements/Article'
+import BaseHeading from '../elements/Heading'
 import BaseSection from '../elements/Section'
-import Heading from '../elements/Heading'
+import BaseTitle from '../elements/Title'
+import List from '../elements/List'
+import MapLink from '../elements/MapLink'
 import Paragraph from '../elements/Paragraph'
-import Title from '../elements/Title'
 
 const Section = styled(BaseSection)({
-  backgroundColor: '#eee',
+  color: '#4a4a4a',
+})
+
+const Title = styled(BaseTitle)({
+  color: '#000',
+})
+
+const Heading = styled(BaseHeading)({
+  marginTop: '3rem',
+})
+
+const Link = styled(MapLink)({
+  marginTop: '3rem',
+})
+
+const ListItem = styled.li({
+  display: 'inline-block',
 })
 
 const components = ({
   heading: props => assignMarkdownHeadings(props, [Title, Heading]),
   paragraph: Paragraph,
+  link: Link,
+  linkReference: Link,
+  list: List,
+  listItem: ListItem,
   root: Article,
 })
 
