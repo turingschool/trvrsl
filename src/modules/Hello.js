@@ -31,6 +31,7 @@ const LineArt = styled(Img)({
   display: 'block',
   marginTop: '4rem',
   maxHeight: 788,
+  objectPosition: '50% 0',
   [MQ.MIN_BREAK_40]: {
     marginTop: '8rem',
   },
