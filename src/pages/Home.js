@@ -25,7 +25,11 @@ export default withRouteData((props: Props) => (
     <Hello source={props.hello} />
     <Schedule source={props.scheduleSource} cards={props.scheduleCards} currentIndex={0} />
     <Attendees source={props.attendees} />
-    <ImageBreak alt="people" source="https://via.placeholder.com/1440x480" />
+    <ImageBreak
+      alt="people"
+      css={{ objectPosition: '50% 0' }}
+      source="/attendees-sie.jpg"
+    />
     <Location source={props.location} />
     <Speakers source={props.speakersSource} cards={props.speakersCards} />
     <Contact source={props.contact} />
