@@ -16,8 +16,6 @@ export const Nav = styled.nav(
     right: 0,
     zIndex: Z.NAVBAR,
     overflow: 'hidden',
-    backgroundColor: '#000',
-    transition: `height 0.3s ${EASE.IN_OUT}, background-color ${SPEED}`,
   },
   props => ({
     pointerEvents: props.isOpen ? null : 'none',
