@@ -33,7 +33,9 @@ export default (props: Props) => (
       <Logo />
     </NavLink>
     <Copy>
-      Copyright <small>&copy;</small> TRVRSL 2018. All Rights Reserved
+      <span>Copyright <small>&copy;</small> TRVRSL</span>
+      <span> {new Date().getFullYear()}</span>.
+      <span> All Rights Reserved</span>
     </Copy>
   </Footer>
 )

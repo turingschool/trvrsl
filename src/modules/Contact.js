@@ -3,6 +3,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
 import { compose, pure, withHandlers, withStateHandlers } from 'recompose'
+import { FORMS } from '../constants/en'
 import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import InputControl from '../blocks/InputControl'
 import Article from '../elements/Article'
@@ -80,28 +81,28 @@ const Contact = (props: Props) => (
       <InputControl
         isRequired
         handleChange={props.handleChange}
-        label="Email Address"
+        label={FORMS.EMAIL_LABEL}
         name="emailAddress"
         type="email"
-        placeholder="Enter your email address"
+        placeholder={FORMS.EMAIL_PLACEHOLDER}
         value={props.emailAddress}
       />
       <InputControl
         handleChange={props.handleChange}
-        label="Full Name"
+        label={FORMS.NAME_LABEL}
         name="fullName"
-        placeholder="Enter your full name"
+        placeholder={FORMS.NAME_PLACEHOLDER}
         value={props.fullName}
       />
       <InputControl
         handleChange={props.handleChange}
-        label="Question or Comment"
+        label={FORMS.QUESTION_LABEL}
         name="question"
-        placeholder="Ask a question or send us a comment"
+        placeholder={FORMS.QUESTION_PLACEHOLDER}
         value={props.question}
       />
       <Actions>
-        <PillButton onClick={props.handleSubmit}>Submit</PillButton>
+        <PillButton onClick={props.handleSubmit}>{FORMS.SUBMIT_BUTTON_TEXT}</PillButton>
       </Actions>
     </Form>
   </Section>
