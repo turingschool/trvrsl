@@ -6,8 +6,9 @@
   "scripts": {
     "start": "react-static start",
     "build": "react-static build",
-    "deploy": "gh-pages -m 'gh-pages auto commit [ci skip]' -d dist",
+    "deploy": "gh-pages -m 'gh-pages auto commit [ci skip]' -d dist --repo https://$GITHUB_TOKEN@github.com/turingschool/trvrsl.git",
     "predeploy": "yarn build",
+    "shipit": "gh-pages -m 'gh-pages auto commit [ci skip]' -d dist",
     "flow": "flow ./src",
     "lint": "eslint ./src "
   },
