@@ -14,6 +14,14 @@ const scrollToHref = async (href) => {
   await scrollTo(element, { duration: 400 })
 }
 
+const toggleBody = async (flag) => {
+  if (document.body != null && document.body.classList != null) {
+    const fn = flag === true ? 'add' : 'remove'
+    // $FlowFixMe - Flow doesn't appreciate the meta fn
+    await document.body.classList[fn]('scrollIsDisabled')
+  }
+}
+
 const withState = withStateHandlers(
   () => ({
     isOpen: false,
@@ -22,15 +30,16 @@ const withState = withStateHandlers(
     handleAnchorClick: () => (e) => {
       const href = getHref(e.target)
       if (href) {
+        toggleBody(false)
         scrollToHref(href)
       }
-      return {
-        isOpen: false,
-      }
+      return { isOpen: false }
     },
-    handleToggle: props => () => ({
-      isOpen: !props.isOpen,
-    }),
+    handleToggle: props => () => {
+      const isOpen = !props.isOpen
+      toggleBody(isOpen)
+      return { isOpen }
+    },
   },
 )
 

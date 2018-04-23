@@ -64,4 +64,7 @@ button {
   cursor: pointer;
   -webkit-appearance: button;
 }
+.scrollIsDisabled {
+  overflow: hidden;
+}
 `.replace(/\n/g, '').replace(', ', ',').replace(' {', '{')
