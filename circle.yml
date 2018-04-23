@@ -1,0 +1,26 @@
+machine:
+  timezone: America/Denver
+  node:
+    version: stable
+  environment:
+    PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
+dependencies:
+  override:
+    - yarn
+  cache_directories:
+    - ~/.cache/yarn
+general:
+  branches:
+    ignore:
+      - gh-pages
+test:
+  override:
+    - yarn flow
+    - yarn lint
+deployment:
+  staging:
+    branch: master
+    commands:
+      - git config --global user.email robots@circleci.com
+      - git config --global user.name CircleCI
+      - yarn deploy
