@@ -21,9 +21,7 @@ export default {
   // preact: true,
   siteRoot: 'https://turingschool.github.io',
   basePath: 'trvrsl',
-  paths: {
-    devDist: '.scratch/dev-server',
-  },
+  paths: { devDist: '.scratch/dev-server' },
   Document,
   renderToHtml: async (render: (*) => string, Comp: ComponentType<*>, meta: RenderMeta) => {
     const html = render(<Comp />)
@@ -44,11 +42,19 @@ export default {
         path: '/',
         component: 'src/pages/Home',
         getData: () => ({
+          isHome: true,
           scheduleCards,
           scheduleSource,
           speakersCards,
           speakersSource,
           ...docs,
+        }),
+      },
+      {
+        path: '/anti-harrassment-policy',
+        component: 'src/pages/Content',
+        getData: () => ({
+          source: docs.harrassment,
         }),
       },
       {

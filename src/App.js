@@ -10,7 +10,7 @@ import Footer from './modules/Footer'
 import NavBar from './modules/NavBar'
 
 const App = () => (
-  <Router>
+  <Router scrollToHashDuration={400} >
     <Fragment>
       <main role="main">
         <Routes />

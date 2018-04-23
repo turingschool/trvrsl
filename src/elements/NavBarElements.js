@@ -1,6 +1,8 @@
 // @flow
 import styled from 'react-emotion'
+import { NavLink as Link } from 'react-static'
 import { EASE, SPEED, Z } from '../constants/styles'
+import { TrvrslTypeIcon } from '../elements/Icons'
 
 export default undefined
 
@@ -12,13 +14,15 @@ export const Nav = styled.nav(
     top: 0,
     left: 0,
     right: 0,
-    bottom: 0,
     zIndex: Z.NAVBAR,
     overflow: 'hidden',
-    backgroundColor: 'transparent',
+    backgroundColor: '#000',
+    transition: `height 0.3s ${EASE.IN_OUT}, background-color ${SPEED}`,
   },
   props => ({
     pointerEvents: props.isOpen ? null : 'none',
+    height: props.isOpen ? '100%' : '6rem',
+    backgroundColor: props.isHome ? 'transparent' : '#000',
   }),
 )
 
@@ -35,12 +39,20 @@ export const Toggle = styled.button(
     height: 84,
     pointerEvents: 'auto',
     color: '#fff',
-    transition: `transform 0.66666s ${EASE.IN_OUT_CUBIC}`,
+    transition: `transform 0.4s ${EASE.IN_OUT_CUBIC}`,
   },
   props => ({
-    transform: props.isOpen ? 'rotate(720deg)' : null,
+    transform: props.isOpen ? 'rotate(720deg)' : 'rotate(-720deg)',
   }),
 )
+
+// -------------------------------------
+
+export const LogoType = styled(TrvrslTypeIcon)({
+  position: 'absolute',
+  top: 32,
+  margin: '0 auto',
+})
 
 // -------------------------------------
 
@@ -69,12 +81,14 @@ export const NavLinks = styled.div(
   }),
 )
 
-export const NavLink = styled.a({
+export const NavLink = styled(Link)({
   fontSize: '1.125rem',
   textTransform: 'uppercase',
   textDecoration: 'none',
   marginBottom: '1.25em',
 })
+
+// -------------------------------------
 
 export const Gradient = styled.div(
   {
