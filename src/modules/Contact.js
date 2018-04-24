@@ -36,9 +36,9 @@ const PillButton = PillLink.withComponent('button')
 type Props = {
   emailAddress: string,
   fullName: string,
-  question: string,
   handleChange: (e: SyntheticInputEvent<*>) => void,
   handleSubmit: (e: SyntheticInputEvent<*>) => void,
+  question: string,
   source: string,
 }
 
@@ -102,7 +102,9 @@ const Contact = (props: Props) => (
         value={props.question}
       />
       <Actions>
-        <PillButton onClick={props.handleSubmit}>{FORMS.SUBMIT_BUTTON_TEXT}</PillButton>
+        <PillButton onClick={props.handleSubmit} >
+          {FORMS.SUBMIT_BUTTON_TEXT}
+        </PillButton>
       </Actions>
     </Form>
   </Section>

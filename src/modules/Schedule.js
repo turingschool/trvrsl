@@ -50,11 +50,11 @@ const components = ({
 // -------------------------------------
 
 type Props = {
+  cards: Array<string>,
   // eslint-disable-next-line react/no-unused-prop-types
   currentIndex: number,
   handleNext: () => void,
   handlePrev: () => void,
-  cards: Array<string>,
   source: string,
 }
 

@@ -22,16 +22,31 @@ type Props = {
 
 export default withRouteData((props: Props) => (
   <Fragment>
-    <Hello source={props.hello} />
-    <Schedule source={props.scheduleSource} cards={props.scheduleCards} currentIndex={0} />
-    <Attendees source={props.attendees} />
+    <Hello
+      source={props.hello}
+    />
+    <Schedule
+      cards={props.scheduleCards}
+      currentIndex={0}
+      source={props.scheduleSource}
+    />
+    <Attendees
+      source={props.attendees}
+    />
     <ImageBreak
       alt="people"
       css={{ objectPosition: '50% 0' }}
       source="/attendees-sie.jpg"
     />
-    <Location source={props.location} />
-    <Speakers source={props.speakersSource} cards={props.speakersCards} />
-    <Contact source={props.contact} />
+    <Location
+      source={props.location}
+    />
+    <Speakers
+      cards={props.speakersCards}
+      source={props.speakersSource}
+    />
+    <Contact
+      source={props.contact}
+    />
   </Fragment>
 ))

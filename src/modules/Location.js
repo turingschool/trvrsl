@@ -33,11 +33,11 @@ const ListItem = styled.li({
 
 const components = ({
   heading: props => assignMarkdownHeadings(props, [Title, Heading]),
-  paragraph: Paragraph,
   link: Link,
   linkReference: Link,
   list: List,
   listItem: ListItem,
+  paragraph: Paragraph,
   root: Article,
 })
 

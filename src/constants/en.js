@@ -2,15 +2,6 @@
 
 export default undefined
 
-export const META = Object.freeze({
-  DESCRIPTION: 'trvrsl description',
-  ICON: '/favicon.svg',
-  IMAGE: '/apple-touch-icon.png',
-  NAME: 'trvrsl name',
-  TITLE: 'trvrsl title',
-  URL: 'https://turingschool.github.io/trvrsl/',
-})
-
 export const FORMS = Object.freeze({
   EMAIL_LABEL: 'Email Address',
   EMAIL_PLACEHOLDER: 'Enter your email address',
@@ -19,4 +10,13 @@ export const FORMS = Object.freeze({
   QUESTION_LABEL: 'Question or Comment',
   QUESTION_PLACEHOLDER: 'Ask a question or send us a comment',
   SUBMIT_BUTTON_TEXT: 'Submit',
+})
+
+export const META = Object.freeze({
+  DESCRIPTION: 'trvrsl description',
+  ICON: '/favicon.svg',
+  IMAGE: '/apple-touch-icon.png',
+  NAME: 'trvrsl name',
+  TITLE: 'trvrsl title',
+  URL: 'https://turingschool.github.io/trvrsl/',
 })
