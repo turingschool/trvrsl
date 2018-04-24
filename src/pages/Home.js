@@ -20,6 +20,8 @@ type Props = {
   speakersSource: string,
 }
 
+const isProduction = () => process.env.NODE_ENV === 'production'
+
 export default withRouteData((props: Props) => (
   <Fragment>
     <Hello
@@ -36,7 +38,7 @@ export default withRouteData((props: Props) => (
     <ImageBreak
       alt="people"
       css={{ objectPosition: '50% 0' }}
-      source="/attendees-and-location.jpg"
+      source={`${isProduction() ? 'https://turingschool.github.io./trvrsl' : ''}/attendees-and-location.jpg`}
     />
     <Location
       source={props.location}

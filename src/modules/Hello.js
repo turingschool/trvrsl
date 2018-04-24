@@ -96,6 +96,8 @@ const components = ({
 
 // -------------------------------------
 
+const isProduction = () => process.env.NODE_ENV === 'production'
+
 type Props = {
   source: string,
 }
@@ -108,7 +110,7 @@ export default (props: Props) => (
     />
     <LineArt
       alt="trvrsl line art"
-      src="/trvrsl-lineart.png"
+      src={`${isProduction() ? 'https://turingschool.github.io./trvrsl' : ''}/trvrsl-lineart.png`}
       width="100%"
       height={788}
     />
