@@ -1,9 +1,7 @@
 # Speakers
 
 Our speaker lineup reflects the diversity in identity our industry is working
-toward, diversity of background we have, and diversity of expertise we depend
-on. They’re from important projects and companies both outside Colorado and
-within.
+toward and a broad graph of background, specialization, and expertise.
 
 ## Katrina Owen
 ![Katrina Owen](https://via.placeholder.com/544x352/000)
