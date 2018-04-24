@@ -8,11 +8,13 @@ import Routes from 'react-static-routes'
 /* eslint-enable import/no-unresolved, import/extensions */
 import Footer from './modules/Footer'
 import NavBar from './modules/NavBar'
+import LogoBar from './modules/LogoBar'
 
 const App = () => (
   <Router scrollToHashDuration={400} >
     <Fragment>
       <main role="main">
+        <LogoBar />
         <Routes />
       </main>
       <NavBar />

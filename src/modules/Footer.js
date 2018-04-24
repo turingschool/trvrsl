@@ -2,20 +2,25 @@
 import React from 'react'
 import styled from 'react-emotion'
 import { NavLink } from 'react-static'
-import { TrvrslFooterIcon } from '../elements/Icons'
+import { MQ } from '../constants/styles'
+import { LogoShape } from '../elements/Icons'
 
 const Footer = styled.footer({
   display: 'flex',
   alignItems: 'center',
   maxWidth: '58rem',
-  minHeight: '7rem',
   margin: '0 auto',
   color: '#4a4a4a',
   backgroundColor: '#fff',
+  padding: '4rem 1rem',
+  [MQ.MIN_BREAK_40]: {
+    padding: '8rem 1rem',
+  },
 })
 
-const Logo = styled(TrvrslFooterIcon)({
+const Logo = styled(LogoShape)({
   marginRight: '2rem',
+  maxWidth: 164,
 })
 
 const Copy = styled.p({

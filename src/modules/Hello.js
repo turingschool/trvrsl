@@ -8,7 +8,6 @@ import Article from '../elements/Article'
 import BaseList from '../elements/List'
 import Img from '../elements/ResponsiveImg'
 import PillLink from '../elements/PillLink'
-import { TrvrslIcon } from '../elements/Icons'
 
 const Section = styled.section({
   paddingTop: '4rem',
@@ -17,13 +16,6 @@ const Section = styled.section({
   backgroundColor: '#000',
   [MQ.MIN_BREAK_40]: {
     paddingTop: '8rem',
-  },
-})
-
-const Logo = styled(TrvrslIcon)({
-  marginBottom: '4rem',
-  [MQ.MIN_BREAK_40]: {
-    marginBottom: '8rem',
   },
 })
 
@@ -51,9 +43,12 @@ const Paragraph = styled.p({
   padding: '0 1rem',
   fontSize: '1rem',
   fontWeight: 200,
+  maxWidth: '50.25rem',
+  marginLeft: 'auto',
+  marginRight: 'auto',
   [MQ.MIN_BREAK_40]: {
     padding: 0,
-    fontSize: '2rem',
+    fontSize: '1.5rem',
   },
 })
 
@@ -107,7 +102,6 @@ type Props = {
 
 export default (props: Props) => (
   <Section id="introduction">
-    <Logo />
     <ReactMarkdown
       renderers={components}
       source={props.source}

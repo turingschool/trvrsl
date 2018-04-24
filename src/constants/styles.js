@@ -14,7 +14,8 @@ export const MQ = Object.freeze({
 })
 
 export const Z = Object.freeze({
-  NAVBAR: 10,
+  LOGOBAR: 70,
+  NAVBAR: 80,
 })
 
 export const GLOBAL_CSS = `

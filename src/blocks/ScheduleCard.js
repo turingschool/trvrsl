@@ -20,25 +20,26 @@ const List = styled(BaseList)({
 })
 
 const ListItem = styled.li({
-  display: 'flex',
+  display: 'block',
   marginBottom: '1.5rem',
   textAlign: 'left',
   [MQ.MIN_BREAK_40]: {
+    display: 'flex',
     marginBottom: '1rem',
   },
 })
 
 const Strong = styled.strong({
+  minWidth: '6rem',
   fontWeight: 700,
   color: '#048bfa',
 })
 
 const Em = styled.em({
   display: 'block',
+  minWidth: '8rem',
   [MQ.MIN_BREAK_40]: {
     display: 'inline-block',
-    marginLeft: '1rem',
-    marginRight: '3rem',
   },
 })
 

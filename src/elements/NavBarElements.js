@@ -2,7 +2,6 @@
 import styled from 'react-emotion'
 import { NavLink as Link } from 'react-static'
 import { EASE, SPEED, Z } from '../constants/styles'
-import { TrvrslTypeIcon } from '../elements/Icons'
 
 export default undefined
 
@@ -16,11 +15,11 @@ export const Nav = styled.nav(
     right: 0,
     zIndex: Z.NAVBAR,
     overflow: 'hidden',
+    backgroundColor: 'transparent',
   },
   props => ({
     pointerEvents: props.isOpen ? null : 'none',
     height: props.isOpen ? '100%' : '6rem',
-    backgroundColor: props.isHome ? 'transparent' : '#000',
   }),
 )
 
@@ -43,14 +42,6 @@ export const Toggle = styled.button(
     transform: props.isOpen ? 'rotate(720deg)' : 'rotate(-720deg)',
   }),
 )
-
-// -------------------------------------
-
-export const LogoType = styled(TrvrslTypeIcon)({
-  position: 'absolute',
-  top: 32,
-  margin: '0 auto',
-})
 
 // -------------------------------------
 
