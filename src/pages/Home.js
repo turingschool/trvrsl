@@ -36,7 +36,7 @@ export default withRouteData((props: Props) => (
     <ImageBreak
       alt="people"
       css={{ objectPosition: '50% 0' }}
-      source="/attendees-sie.jpg"
+      source="/attendees-and-location.jpg"
     />
     <Location
       source={props.location}
