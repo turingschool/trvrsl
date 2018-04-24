@@ -1,11 +1,11 @@
 # Location
 
-Blah blah blah in the heart of Colorado tech country, Denver, CO. Far and away
-better than Boulder, CO. Lorem ipsum dolere sit amet nonummy consecuter
-adscpecit. Lorem ipsum dolere sit amet nonummy consecuter adscpecit. 
+Colorado's tech community is vibrant thanks to an increasingly broad network of people and skills. Traversal happens in the  heart of Denver, surrounded by the energy and companies that call Colorado home.
 
-## SIE Film Center
-2510 East Colfax Avenue   
-Denver, Colorao 80206
+Note that our location is on the second floor but is wheelchair accessible. Parking passes will be provided.
 
-- [Map / Directions](https://maps.google.com)
+## Larimer Social
+1427 Larimer Street
+Denver, CO 80202
+
+- [Map / Directions](https://www.google.com/maps/place/Larimer+Social/@39.7479059,-104.9995297,15z/data=!4m5!3m4!1s0x0:0x639bf5fbb880def3!8m2!3d39.7479059!4d-104.9995297)
