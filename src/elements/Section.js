@@ -6,6 +6,6 @@ export default styled.section({
   padding: '4rem 1rem',
   backgroundColor: '#fff',
   [MQ.MIN_BREAK_40]: {
-    paddingTop: '8rem',
+    padding: '8rem 1rem',
   },
 })

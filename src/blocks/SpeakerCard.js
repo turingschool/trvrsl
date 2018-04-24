@@ -29,6 +29,7 @@ const Photo = styled(Img)({
 const Title = styled.h2({
   fontSize: 28,
   fontWeight: 300,
+  color: '#0091ff',
 })
 
 const Paragraph = styled.p({

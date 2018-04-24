@@ -31,8 +31,10 @@ const Paddles = styled(BasePaddles)({
   position: 'relative',
   zIndex: 2,
   transform: 'translateY(2rem)',
+  maxWidth: '26rem',
+  margin: '0 auto',
   [MQ.MIN_BREAK_40]: {
-    transform: 'translateY(2.25rem)',
+    transform: 'translateY(2.5rem)',
   },
 })
 

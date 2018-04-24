@@ -12,6 +12,7 @@ const Card = styled.div({
 })
 
 const List = styled(BaseList)({
+  display: 'inline-block',
   marginTop: '2rem',
   [MQ.MIN_BREAK_40]: {
     marginTop: '3rem',
@@ -19,8 +20,9 @@ const List = styled(BaseList)({
 })
 
 const ListItem = styled.li({
-  display: 'block',
+  display: 'flex',
   marginBottom: '1.5rem',
+  textAlign: 'left',
   [MQ.MIN_BREAK_40]: {
     marginBottom: '1rem',
   },
