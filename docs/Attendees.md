@@ -1,11 +1,11 @@
 # Attendees
 
-Traversal brings together a diverse, inclusive audience of professional
+Traversal brings together a diverse, inclusive audience of two hundred professional
 technologists. Part conference and part workshop, we spend two days together in
 a mix of presenter-driven single-topic sessions and collaborative
 discussions/activities.
 
-Attendees are professional software developers across the spectrum from
+Attendees are software developers across the spectrum from
 UI/UX/Frontend through Backend, Data, and Ops. They primarily work in
 web-centric technologies like JavaScript, React, Angular, Vue, HTML, CSS, PHP,
 CakePHP, Ruby, Rails, Python, Django, Java, Struts, Go, Elixir, Clojure, and
