@@ -15,14 +15,12 @@ const getDocs = () => {
     const key = camelize(path.basename(filename, '.md').toLowerCase())
     docs[key] = fs.readFileSync(path.join(docsDir, filename), 'utf-8')
   })
-  console.log(Object.keys(docs))
   return docs
 }
 
 export default {
   // preact: true,
-  siteRoot: 'https://turingschool.github.io',
-  basePath: 'trvrsl',
+  siteRoot: 'https://turingschool.github.io/trvrsl',
   paths: { devDist: '.scratch/dev-server' },
   Document,
   renderToHtml: async (render: (*) => string, Comp: ComponentType<*>, meta: RenderMeta) => {
