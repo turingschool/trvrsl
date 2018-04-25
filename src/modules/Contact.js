@@ -35,6 +35,7 @@ const PillButton = PillLink.withComponent('button')
 
 type Props = {
   emailAddress: string,
+  isFormValid: boolean,
   fullName: string,
   handleChange: (e: SyntheticInputEvent<*>) => void,
   handleSubmit: (e: SyntheticInputEvent<*>) => void,
@@ -42,10 +43,27 @@ type Props = {
   source: string,
 }
 
+let formElement = null
+const formAction = '/contact'
 const initialState = {
   emailAddress: '',
   fullName: '',
+  isFormValid: false,
   question: '',
+}
+
+const selectForm = () => {
+  if (typeof document === 'undefined') { return null }
+  if (formElement === null) {
+    formElement = document.body && document.body.querySelector(`form[action="${formAction}"]`)
+  }
+  return formElement
+}
+
+const getIsFormValid = () => {
+  const form = selectForm()
+  // $FlowFixMe - Flow thinks `form` is an `HTMLElement` instead of `HTMLFormElement`
+  return form != null ? form.checkValidity() : false
 }
 
 const withStateUpdates = withStateHandlers(
@@ -53,6 +71,7 @@ const withStateUpdates = withStateHandlers(
   {
     handleChange: () => e => ({
       [e.target.name]: e.target.value,
+      isFormValid: getIsFormValid(),
     }),
   },
 )
@@ -73,7 +92,7 @@ const Contact = (props: Props) => (
     />
     <Form
       acceptCharset="UTF-8"
-      action="/contact"
+      action={formAction}
       css={{ marginTop: '4rem' }}
       method="POST"
       onSubmit={props.handleSubmit}
@@ -102,7 +121,10 @@ const Contact = (props: Props) => (
         value={props.question}
       />
       <Actions>
-        <PillButton onClick={props.handleSubmit} >
+        <PillButton
+          disabled={!props.isFormValid}
+          onClick={props.handleSubmit}
+        >
           {FORMS.SUBMIT_BUTTON_TEXT}
         </PillButton>
       </Actions>
