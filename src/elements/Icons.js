@@ -55,20 +55,20 @@ CalendarIcon.defaultProps = {
 
 // -------------------------------------
 
-export const LogoShape = ({ ...props }: Props) => (
-  <svg viewBox="0 0 299.36 155.14" {...props}>
+export const LogoShape = ({ width, height, ...props }: Props) => (
+  <svg viewBox="0 0 299.36 155.14" width={width} height={height} {...props}>
     <title>Home</title>
     <defs>
-      <clipPath id="LogoShapeClipPath">
+      <clipPath id={`LogoShapeClipPath${width + height}`}>
         <path fill="none" d="M297.28,127.19h0L208.2,1.57h0a.47.47,0,0,0-.34-.2.49.49,0,0,0-.51.27h0l-28.29,55.6L159.6,50.31h0l-.07,0h-.24l-.07,0,0,0h0l-24,20.95L115.69,49.23l0,0s0,0,0,0h0l0,0h0l-.07,0,0,0h-.25a.15.15,0,0,0-.07,0l-.06,0h0l0,0h0s0,0,0,0l0,0-9,11.4L60.68,11.31l0,0,0,0,0,0,0,0h0l-.05,0,0,0h-.21l0,0h0l-.06,0,0,0,0,0,0,0h0l0,0a.08.08,0,0,1,0,0l0,0,0,0L1.38,128.36a.5.5,0,0,0,.23.67.54.54,0,0,0,.21.05h0l29.65.44,51,9h0l.09,0h.1l37.58-7.65,11.6-1.29,11.81-.92,0-.5.05.5,11.5-1.28,34.78,15.79h0a.37.37,0,0,0,.14,0h.07l38.79.07h.05a.37.37,0,0,0,.14,0h0L266.38,128h30.5a.51.51,0,0,0,.36-.15A.49.49,0,0,0,297.28,127.19Zm-118.68-69-9,17.71-9.3-24.24Zm-19.26-6.22,9.56,24.94A.45.45,0,0,0,169,77l-4.53,8.91-21.64-6.08ZM164,86.81l-9.79,19.25L143,80.9Zm-6.58-33.62L142,79.28l-6.28-7.18ZM134.64,72.38h0l7,8,12,26.81-.45.87L119.27,54.83ZM105.31,61.44,83.67,88.9,75.11,93l-14-79.75ZM31.12,128.52l-28.49-.43L58.76,15.86ZM60.23,14.07l14,79.45L32.36,127.69ZM32.68,128.72,74.39,94.65l7.5,42.72Zm50.23,8.67L75.29,94l8.57-4.1L119.17,130Zm37.41-7.58L84.64,89.28,115,50.71l16.1,77.9Zm22.92-2.17-11.1.87L116.36,52.12l36.31,57Zm11.6-1.28-10.42,1.16L202,14.43Zm34.85,15.58-33.85-15.37,51-121.16Zm1,.21,17.46-139,85.23,120.17L221.62,54h0l0,0h0l-.07,0h0l-.06,0h-.24l-.06,0-.08,0h0l0,0,0,0-.05,0h0l0,0h0l0,.07s0,.05,0,.07v0h0l-25.51,87.74Zm5.57,0L221,57l7.34,85.21Zm33.09-.16L222,56.46l22.21,37.47h0l21.36,33.29ZM266.56,127,245,93.41,223.6,57.27l72,69.7Z" />
       </clipPath>
-      <linearGradient id="LogoShapeLinearGradient" x1="-0.28" y1="137.44" x2="305.06" y2="55.62" gradientUnits="userSpaceOnUse">
+      <linearGradient id={`LogoShapeLinearGradient${width + height}`} x1="-0.28" y1="137.44" x2="305.06" y2="55.62" gradientUnits="userSpaceOnUse">
         <stop offset="0" stopColor="#ff0a90" />
         <stop offset="1" stopColor="aqua" />
       </linearGradient>
     </defs>
-    <g clipPath="url(#LogoShapeClipPath)">
-      <rect fill="url(#LogoShapeLinearGradient)" width="298.7" height="194.7" />
+    <g clipPath={`url(#LogoShapeClipPath${width + height})`}>
+      <rect fill={`url(#LogoShapeLinearGradient${width + height})`} width="298.7" height="194.7" />
     </g>
   </svg>
 )

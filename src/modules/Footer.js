@@ -35,7 +35,7 @@ type Props = {
 export default (props: Props) => (
   <Footer {...props}>
     <NavLink to="/">
-      <Logo />
+      <Logo width={164} />
     </NavLink>
     <Copy>
       <span>Copyright <small>&copy;</small> TRVRSL</span>
