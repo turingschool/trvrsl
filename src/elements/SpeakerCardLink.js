@@ -27,7 +27,7 @@ type Props = {
 }
 
 export default ({ children, href, ...props }: Props) => (
-  <Link href={href} target="_blank" {...props}>
+  <Link href={href} target="_blank" rel="noopener" {...props} >
     { isTwitter(href) === true && <TwitterIcon /> }
     <span>{ children }</span>
   </Link>

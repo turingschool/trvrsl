@@ -42,7 +42,7 @@ type Props = {
 }
 
 export default ({ children, ...props }: Props) => (
-  <Link target="_blank" {...props}>
+  <Link target="_blank" rel="noopener" {...props} >
     <MapIcon />
     <Span>{children}</Span>
   </Link>
