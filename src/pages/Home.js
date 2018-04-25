@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import React, { Fragment } from 'react'
 import { withRouteData } from 'react-static'
 import { ASSET_PATH } from '../constants/networking'
 import Attendees from '../modules/Attendees'
@@ -22,7 +22,7 @@ type Props = {
 }
 
 export default withRouteData((props: Props) => (
-  <div>
+  <Fragment>
     <Introduction
       source={props.introduction}
     />
@@ -49,5 +49,5 @@ export default withRouteData((props: Props) => (
     <Contact
       source={props.contact}
     />
-  </div>
+  </Fragment>
 ))

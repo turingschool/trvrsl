@@ -1,5 +1,5 @@
 // @flow
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Router } from 'react-static'
 import { hot } from 'react-hot-loader'
 /* eslint-disable import/no-unresolved, import/extensions */
@@ -13,7 +13,7 @@ import FeatureDetection from './elements/FeatureDetection'
 
 const App = () => (
   <Router scrollToHashDuration={400} >
-    <div>
+    <Fragment>
       <FeatureDetection />
       <main role="main">
         <LogoBar />
@@ -21,7 +21,7 @@ const App = () => (
       </main>
       <NavBar />
       <Footer />
-    </div>
+    </Fragment>
   </Router>
 )
 
