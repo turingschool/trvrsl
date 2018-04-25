@@ -6,9 +6,9 @@ import { ASSET_PATH, TICKETS_URL } from '../constants/networking'
 import { MQ } from '../constants/styles'
 import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import Article from '../elements/Article'
-import BaseList from '../elements/List'
 import Img from '../elements/ResponsiveImg'
-import PillLink from '../elements/PillLink'
+import TextLinkBase from '../elements/TextLink'
+import { EventLink as EventLinkBase, ScheduleLink } from '../elements/PillLink'
 
 const Section = styled.section({
   paddingTop: '4rem',
@@ -17,16 +17,6 @@ const Section = styled.section({
   backgroundColor: '#000',
   [MQ.MIN_BREAK_40]: {
     paddingTop: '8rem',
-  },
-})
-
-const LineArt = styled(Img)({
-  display: 'block',
-  marginTop: '4rem',
-  maxHeight: 788,
-  objectPosition: '50% 0',
-  [MQ.MIN_BREAK_40]: {
-    marginTop: '8rem',
   },
 })
 
@@ -53,19 +43,24 @@ const Paragraph = styled.p({
   },
 })
 
-const List = styled(BaseList)({
+const components = ({
+  heading: props => assignMarkdownHeadings(props, [Title]),
+  paragraph: Paragraph,
+  root: Article,
+})
+
+const Actions = styled.div({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  margin: '3rem 0 0 -1rem',
+  marginTop: '3rem',
   [MQ.MIN_BREAK_40]: {
     flexDirection: 'row',
   },
 })
 
-const ListItem = styled.li({
-  display: 'flex',
+const EventLink = styled(EventLinkBase)({
   marginBottom: '1rem',
   [MQ.MIN_BREAK_40]: {
     marginBottom: 0,
@@ -73,26 +68,21 @@ const ListItem = styled.li({
   },
 })
 
-const Link = styled(PillLink)({
-  color: '#bfbdbd',
-  backgroundClip: 'content-box, border-box',
-  backgroundColor: 'transparent',
-  backgroundImage: 'linear-gradient(#000, #000), linear-gradient(90deg, #d800ff, #ff0092)',
-  backgroundOrigin: 'border-box',
-  borderColor: 'transparent',
-  'li + li > &': {
-    backgroundImage: 'linear-gradient(#000, #000), linear-gradient(90deg, #0091ff, #00faff)',
+const TextLink = styled(TextLinkBase)({
+  marginTop: '2rem',
+  [MQ.MIN_BREAK_40]: {
+    marginTop: '4rem',
   },
 })
 
-const components = ({
-  heading: props => assignMarkdownHeadings(props, [Title]),
-  link: Link,
-  linkReference: Link,
-  list: List,
-  listItem: ListItem,
-  paragraph: Paragraph,
-  root: Article,
+const LineArt = styled(Img)({
+  display: 'block',
+  marginTop: '4rem',
+  maxHeight: 788,
+  objectPosition: '50% 0',
+  [MQ.MIN_BREAK_40]: {
+    marginTop: '8rem',
+  },
 })
 
 // -------------------------------------
@@ -107,6 +97,17 @@ export default (props: Props) => (
       renderers={components}
       source={props.source}
     />
+    <Actions>
+      <ScheduleLink to="/#schedule">
+        View Schedule
+      </ScheduleLink>
+      <EventLink to={TICKETS_URL} target="_blank">
+        Event Information
+      </EventLink>
+    </Actions>
+    <TextLink to="/anti-harrassment-policy">
+      Anti-Harrassment
+    </TextLink>
     <LineArt
       alt="trvrsl line art"
       src={`${ASSET_PATH}/trvrsl-lineart.png`}

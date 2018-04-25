@@ -3,6 +3,3 @@
 The future of software is multi-disciplinary: connecting diverse technologies,
 ideas, and people. Together, we explore ideas and draw connections across the
 broad graph of our field.
-
-- [View Schedule](https://turing.io/)
-- [Purchase Tickets](https://turing.io/)
