@@ -8,7 +8,7 @@ import BaseHeading from '../elements/Heading'
 import BaseSection from '../elements/Section'
 import BaseTitle from '../elements/Title'
 import List from '../elements/List'
-import MapLink from '../elements/MapLink'
+import InfoLink from '../elements/InfoLink'
 import Paragraph from '../elements/Paragraph'
 
 const Section = styled(BaseSection)({
@@ -23,8 +23,14 @@ const Heading = styled(BaseHeading)({
   marginTop: '3rem',
 })
 
-const Link = styled(MapLink)({
-  marginTop: '3rem',
+const Link = styled(InfoLink)({
+  'ul:first-of-type &': {
+    marginTop: '3rem',
+    marginBottom: '2rem',
+  },
+  'h2 ~ ul &': {
+    marginTop: '3rem',
+  },
 })
 
 const ListItem = styled.li({

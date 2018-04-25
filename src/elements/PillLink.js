@@ -3,14 +3,14 @@ import styled from 'react-emotion'
 import { NavLink } from 'react-static'
 import { SPEED } from '../constants/styles'
 
-const PillLink = styled(NavLink)({
+export const pillStyle = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
   fontWeight: 700,
   fontSize: '0.875rem',
-  textTransform: 'uppercase',
   textDecoration: 'none',
+  textTransform: 'uppercase',
   minWidth: 192,
   height: 44,
   border: '1px solid',
@@ -20,6 +20,10 @@ const PillLink = styled(NavLink)({
     pointerEvents: 'none',
     opacity: 0.5,
   },
+}
+
+const PillLink = styled(NavLink)({
+  ...pillStyle,
 })
 
 export default PillLink
