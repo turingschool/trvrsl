@@ -61,9 +61,9 @@ const Actions = styled.div({
 })
 
 const EventLink = styled(EventLinkBase)({
-  marginBottom: '1rem',
+  marginTop: '1rem',
   [MQ.MIN_BREAK_40]: {
-    marginBottom: 0,
+    marginTop: 0,
     marginLeft: '1rem',
   },
 })

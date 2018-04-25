@@ -14,10 +14,13 @@ export default styled.input({
   border: 0,
   borderBottom: '1px solid',
   outline: 'none',
-  transition: `color ${SPEED}`,
+  transition: `color ${SPEED} font-size ${SPEED}`,
   '::placeholder': {
     color: '#fff',
     transition: `color ${SPEED}`,
+  },
+  'html:not(.no-touch) &:focus': {
+    fontSize: '1rem',
   },
   '&:focus::placeholder': {
     color: 'rgba(255, 255, 255, 0.5)',

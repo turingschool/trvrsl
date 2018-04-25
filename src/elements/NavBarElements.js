@@ -44,9 +44,9 @@ export const Toggle = styled.button(
       transform: 'scale(1.25)',
     },
     [MQ.MAX_BREAK_40]: {
+      left: '-0.5rem',
       '& > svg': {
         transform: 'scale(0.75)',
-        transformOrigin: '0 50%',
       },
     },
   },
