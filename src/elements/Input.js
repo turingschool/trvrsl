@@ -19,7 +19,7 @@ export default styled.input({
     color: '#fff',
     transition: `color ${SPEED}`,
   },
-  'html:not(.no-touch) &:focus': {
+  '.has-touch &': {
     fontSize: '1rem',
   },
   '&:focus::placeholder': {
