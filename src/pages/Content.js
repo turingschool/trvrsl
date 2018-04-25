@@ -12,7 +12,7 @@ import Heading from '../elements/Heading'
 import Paragraph from '../elements/Paragraph'
 
 const Section = styled(BaseSection)({
-  minHeight: 'calc(100vh - 7rem)',
+  minHeight: 'calc(100vh - 26.25rem)',
 })
 
 const Article = styled(BaseArticle)({

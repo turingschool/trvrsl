@@ -60,7 +60,10 @@ export default {
       },
       {
         is404: true,
-        component: 'src/pages/404',
+        component: 'src/pages/Content',
+        getData: () => ({
+          source: docs.notFound,
+        }),
       },
     ]
   },
