@@ -3,8 +3,6 @@ The [website for the Traversal Conference][website].
 
 :studio_microphone:
 
-&raquo; [Production App][website]
-
 This project is a [react-static app][rs] utilizing GitHub as a CMS via markdown
 files located in the [docs directory](/docs).
 
