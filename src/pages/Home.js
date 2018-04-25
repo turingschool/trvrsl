@@ -1,6 +1,7 @@
 // @flow
 import React, { Fragment } from 'react'
 import { withRouteData } from 'react-static'
+import { ASSET_PATH } from '../constants/networking'
 import Attendees from '../modules/Attendees'
 import Contact from '../modules/Contact'
 import Hello from '../modules/Hello'
@@ -20,8 +21,6 @@ type Props = {
   speakersSource: string,
 }
 
-const isProduction = () => process.env.NODE_ENV === 'production'
-
 export default withRouteData((props: Props) => (
   <Fragment>
     <Hello
@@ -38,7 +37,7 @@ export default withRouteData((props: Props) => (
     <ImageBreak
       alt="people"
       css={{ objectPosition: '50% 0' }}
-      source={`${isProduction() ? 'https://turingschool.github.io./trvrsl' : ''}/attendees-and-location.jpg`}
+      source={`${ASSET_PATH}/attendees-and-location.jpg`}
     />
     <Location
       source={props.location}

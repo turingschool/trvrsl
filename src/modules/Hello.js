@@ -2,6 +2,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
+import { ASSET_PATH, TICKETS_URL } from '../constants/networking'
 import { MQ } from '../constants/styles'
 import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import Article from '../elements/Article'
@@ -96,8 +97,6 @@ const components = ({
 
 // -------------------------------------
 
-const isProduction = () => process.env.NODE_ENV === 'production'
-
 type Props = {
   source: string,
 }
@@ -110,7 +109,7 @@ export default (props: Props) => (
     />
     <LineArt
       alt="trvrsl line art"
-      src={`${isProduction() ? 'https://turingschool.github.io./trvrsl' : ''}/trvrsl-lineart.png`}
+      src={`${ASSET_PATH}/trvrsl-lineart.png`}
       width="100%"
       height={788}
     />
