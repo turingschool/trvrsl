@@ -6,15 +6,15 @@ import Attendees from '../modules/Attendees'
 import Contact from '../modules/Contact'
 import Hello from '../modules/Hello'
 import ImageBreak from '../modules/ImageBreak'
-import Location from '../modules/Location'
+import EventInformation from '../modules/EventInformation'
 import Schedule from '../modules/Schedule'
 import Speakers from '../modules/Speakers'
 
 type Props = {
   attendees: string,
   contact: string,
+  eventInformation: string,
   hello: string,
-  location: string,
   scheduleCards: Array<string>,
   scheduleSource: string,
   speakersCards: Array<string>,
@@ -35,12 +35,12 @@ export default withRouteData((props: Props) => (
       source={props.attendees}
     />
     <ImageBreak
-      alt="people"
+      alt="attendees and event information"
       css={{ objectPosition: '50% 0' }}
-      source={`${ASSET_PATH}/attendees-and-location.jpg`}
+      source={`${ASSET_PATH}/attendees-and-event-information.jpg`}
     />
-    <Location
-      source={props.location}
+    <EventInformation
+      source={props.eventInformation}
     />
     <Speakers
       cards={props.speakersCards}

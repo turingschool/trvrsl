@@ -1,8 +1,10 @@
-# Location
+# Event Information
 
 Colorado's tech community is vibrant thanks to an increasingly broad network of people and skills. Traversal happens in the  heart of Denver, surrounded by the energy and companies that call Colorado home.
 
 Note that our location is on the second floor but is wheelchair accessible. Parking passes will be provided.
+
+- [Purchase Tickets](https://www.eventbrite.com/e/2018-traversal-conf-tickets-45452007177)
 
 ## Larimer Social
 1427 Larimer Street

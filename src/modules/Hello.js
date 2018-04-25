@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
-import { ASSET_PATH, TICKETS_URL } from '../constants/networking'
+import { ASSET_PATH } from '../constants/networking'
 import { MQ } from '../constants/styles'
 import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import Article from '../elements/Article'
@@ -101,7 +101,7 @@ export default (props: Props) => (
       <ScheduleLink to="/#schedule">
         View Schedule
       </ScheduleLink>
-      <EventLink to={TICKETS_URL} target="_blank">
+      <EventLink to="/#event-information">
         Event Information
       </EventLink>
     </Actions>

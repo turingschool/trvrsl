@@ -48,7 +48,7 @@ type Props = {
 }
 
 export default (props: Props) => (
-  <Section id="location">
+  <Section id="event-information">
     <ReactMarkdown
       renderers={components}
       source={props.source}

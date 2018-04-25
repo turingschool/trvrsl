@@ -44,7 +44,7 @@ const NavBar = (props: Props) => (
       <NavLink onClick={props.handleAnchorClick} to="/">Introduction</NavLink>
       <NavLink onClick={props.handleAnchorClick} to="/#schedule">Schedule</NavLink>
       <NavLink onClick={props.handleAnchorClick} to="/#attendees">Attendees</NavLink>
-      <NavLink onClick={props.handleAnchorClick} to="/#location">Location</NavLink>
+      <NavLink onClick={props.handleAnchorClick} to="/#event-information">Event Information</NavLink>
       <NavLink onClick={props.handleAnchorClick} to="/#speakers">Speakers</NavLink>
       <NavLink onClick={props.handleAnchorClick} to="/#contact">Contact</NavLink>
       <NavLink onClick={props.handleAnchorClick} to="/anti-harrassment-policy">Anit-Harrassment Policy</NavLink>
