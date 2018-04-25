@@ -3,8 +3,8 @@
   "name": "Traversal Conference",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
+      "src": "apple-touch-icon.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
