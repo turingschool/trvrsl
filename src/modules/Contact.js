@@ -122,6 +122,11 @@ const Contact = (props: Props) => (
       />
       <Actions>
         <PillButton
+          css={{
+            '.no-touch &:hover': {
+              backgroundColor: '#0091ff',
+            },
+          }}
           disabled={!props.isFormValid}
           onClick={props.handleSubmit}
         >

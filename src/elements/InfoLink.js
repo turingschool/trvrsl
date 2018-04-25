@@ -2,12 +2,14 @@
 import React from 'react'
 import styled from 'react-emotion'
 import { MapIcon } from './Icons'
+import { SPEED } from '../constants/styles'
 import { pillStyle } from '../elements/PillLink'
 
 // 🐲
 const Link = styled.a({
   display: 'flex',
   color: '#0091ff',
+  transition: `color ${SPEED}`,
   'ul:first-of-type &': {
     ...pillStyle,
   },
@@ -25,6 +27,9 @@ const Link = styled.a({
     fontWeight: 700,
     textDecoration: 'none',
     textTransform: 'uppercase',
+  },
+  '.no-touch &:hover': {
+    color: '#ff0092',
   },
 })
 

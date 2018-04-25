@@ -37,8 +37,11 @@ type Props = {
 
 const NavBar = (props: Props) => (
   <Nav isOpen={props.isOpen}>
+    <Toggle isOpen={!props.isOpen} onClick={props.handleToggle}>
+      <MenuIcon />
+    </Toggle>
     <Toggle isOpen={props.isOpen} onClick={props.handleToggle}>
-      { props.isOpen ? <XIcon /> : <MenuIcon /> }
+      <XIcon />
     </Toggle>
     <NavLinks isOpen={props.isOpen}>
       <NavLink onClick={props.handleAnchorClick} to="/">Introduction</NavLink>

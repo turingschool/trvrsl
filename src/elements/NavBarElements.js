@@ -1,7 +1,7 @@
 // @flow
 import styled from 'react-emotion'
 import { NavLink as Link } from 'react-static'
-import { EASE, SPEED, Z } from '../constants/styles'
+import { EASE, MQ, SPEED, Z } from '../constants/styles'
 
 export default undefined
 
@@ -36,10 +36,23 @@ export const Toggle = styled.button(
     height: 84,
     pointerEvents: 'auto',
     color: '#fff',
-    transition: `transform 0.4s ${EASE.IN_OUT_CUBIC}`,
+    transition: `transform ${SPEED} ${EASE.IN_OUT}, opacity ${SPEED}`,
+    '.no-touch & > svg': {
+      transition: `transform ${SPEED} ${EASE.IN_OUT}`,
+    },
+    '.no-touch &:hover > svg': {
+      transform: 'scale(1.25)',
+    },
+    [MQ.MAX_BREAK_40]: {
+      '& > svg': {
+        transform: 'scale(0.75)',
+        transformOrigin: '0 50%',
+      },
+    },
   },
   props => ({
-    transform: props.isOpen ? 'rotate(720deg)' : 'rotate(-720deg)',
+    transform: props.isOpen ? 'rotate(-720deg) scale(1)' : 'rotate(720deg) scale(0)',
+    opacity: props.isOpen ? 1 : 0,
   }),
 )
 
@@ -75,6 +88,10 @@ export const NavLink = styled(Link)({
   textTransform: 'uppercase',
   textDecoration: 'none',
   marginBottom: '1.25em',
+  transition: `color ${SPEED}`,
+  '.no-touch &:hover': {
+    color: '#000',
+  },
 })
 
 // -------------------------------------

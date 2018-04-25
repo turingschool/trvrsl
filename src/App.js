@@ -9,10 +9,12 @@ import Routes from 'react-static-routes'
 import Footer from './modules/Footer'
 import NavBar from './modules/NavBar'
 import LogoBar from './modules/LogoBar'
+import FeatureDetection from './elements/FeatureDetection'
 
 const App = () => (
   <Router scrollToHashDuration={400} >
     <Fragment>
+      <FeatureDetection />
       <main role="main">
         <LogoBar />
         <Routes />

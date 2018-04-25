@@ -1,6 +1,7 @@
 // @flow
 import styled from 'react-emotion'
 import { NavLink } from 'react-static'
+import { SPEED } from '../constants/styles'
 
 export default styled(NavLink)({
   display: 'inline-block',
@@ -9,5 +10,9 @@ export default styled(NavLink)({
   textTransform: 'uppercase',
   textDecoration: 'none',
   color: '#767676',
+  transition: `color ${SPEED}`,
+  '.no-touch &:hover': {
+    color: '#fff',
+  },
 })
 

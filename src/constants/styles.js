@@ -11,6 +11,7 @@ export const EASE = Object.freeze({
 
 export const MQ = Object.freeze({
   MIN_BREAK_40: '@media (min-width: 40em)',
+  MAX_BREAK_40: '@media (max-width: 39.9375em)',
 })
 
 export const Z = Object.freeze({

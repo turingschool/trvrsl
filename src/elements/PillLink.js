@@ -15,7 +15,7 @@ export const pillStyle = {
   height: 44,
   border: '1px solid',
   borderRadius: '0.5rem',
-  transition: `opacity ${SPEED}`,
+  transition: `color ${SPEED}, opacity ${SPEED}, background-color ${SPEED}`,
   '&[disabled]': {
     pointerEvents: 'none',
     opacity: 0.5,
@@ -39,9 +39,15 @@ const funkyBorder = {
 export const ScheduleLink = styled(PillLink)({
   ...funkyBorder,
   backgroundImage: 'linear-gradient(#000, #000), linear-gradient(90deg, #d800ff, #ff0092)',
+  '.no-touch &:hover': {
+    color: '#d800ff',
+  },
 })
 
 export const EventLink = styled(PillLink)({
   ...funkyBorder,
   backgroundImage: 'linear-gradient(#000, #000), linear-gradient(90deg, #0091ff, #00faff)',
+  '.no-touch &:hover': {
+    color: '#0091ff',
+  },
 })

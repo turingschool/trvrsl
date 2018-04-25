@@ -3,6 +3,7 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
 import { withRouteData } from 'react-static'
+import { SPEED } from '../constants/styles'
 import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import BaseArticle from '../elements/Article'
 import BaseSection from '../elements/Section'
@@ -22,6 +23,10 @@ const Article = styled(BaseArticle)({
 const Link = styled.a({
   textDecoration: 'none',
   color: '#0091ff',
+  transition: `color ${SPEED}`,
+  '.no-touch &:hover': {
+    color: '#ff0092',
+  },
 })
 
 const Title = styled(BaseTitle)({

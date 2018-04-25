@@ -47,6 +47,7 @@ const components = ({
   image: Photo,
   imageReference: Photo,
   link: Link,
+  linkReference: Link,
   list: List,
   root: Card,
 })
