@@ -4,7 +4,7 @@ import { withRouteData } from 'react-static'
 import { ASSET_PATH } from '../constants/networking'
 import Attendees from '../modules/Attendees'
 import Contact from '../modules/Contact'
-import Hello from '../modules/Hello'
+import Introduction from '../modules/Introduction'
 import ImageBreak from '../modules/ImageBreak'
 import EventInformation from '../modules/EventInformation'
 import Schedule from '../modules/Schedule'
@@ -14,7 +14,7 @@ type Props = {
   attendees: string,
   contact: string,
   eventInformation: string,
-  hello: string,
+  introduction: string,
   scheduleCards: Array<string>,
   scheduleSource: string,
   speakersCards: Array<string>,
@@ -23,8 +23,8 @@ type Props = {
 
 export default withRouteData((props: Props) => (
   <Fragment>
-    <Hello
-      source={props.hello}
+    <Introduction
+      source={props.introduction}
     />
     <Schedule
       cards={props.scheduleCards}
