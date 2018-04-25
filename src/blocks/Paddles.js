@@ -19,10 +19,10 @@ type Props = {
 export default ({ handlePrev, handleNext, ...props }: Props) => (
   <Paddles {...props} >
     {handlePrev != null ?
-      <Paddle direction="west" onClick={handlePrev} /> : <span>&nbsp;</span>
+      <Paddle title="Previous" direction="west" onClick={handlePrev} /> : <span>&nbsp;</span>
     }
     {handleNext != null &&
-      <Paddle onClick={handleNext} />
+      <Paddle title="Next" onClick={handleNext} />
     }
   </Paddles>
 )

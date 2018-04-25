@@ -39,12 +39,13 @@ const Icon = styled(ArrowIcon)(
 
 type Props = {
   direction?: 'north' | 'south' | 'east' | 'west',
+  title: string,
   onClick: (e: Event) => void,
 }
 
-const Paddle = ({ direction, onClick, ...props }: Props) => (
+const Paddle = ({ direction, title, onClick, ...props }: Props) => (
   <Button role="button" onClick={onClick} {...props} >
-    <Icon direction={direction} />
+    <Icon direction={direction} title={title} />
   </Button>
 )
 
