@@ -1,4 +1,5 @@
 // @flow
+import { ASSET_PATH } from './networking'
 
 export default undefined
 
@@ -14,9 +15,11 @@ export const FORMS = Object.freeze({
 
 export const META = Object.freeze({
   DESCRIPTION: 'trvrsl description',
-  ICON: '/favicon.svg',
-  IMAGE: '/apple-touch-icon.png',
+  FAVICON: `${ASSET_PATH}/favicon.ico`,
+  ICON: `${ASSET_PATH}/favicon.svg`,
+  IMAGE: `${ASSET_PATH}/apple-touch-icon.png`,
+  MANIFEST: `${ASSET_PATH}/manifest.json`,
   NAME: 'trvrsl name',
   TITLE: 'trvrsl title',
-  URL: 'https://turingschool.github.io/trvrsl/',
+  URL: 'https://turingschool.github.io/trvrsl',
 })

@@ -46,6 +46,8 @@ export default class extends React.Component<Props> {
           <meta name="referrer" content="always" />
           <meta name="robots" content="index, follow" />
           <link href={META.ICON} color={COLOR} rel="mask-icon" />
+          <link rel="shortcut icon" href={META.FAVICON} />
+          <link rel="manifest" href={META.MANIFEST} />
           <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,400,700" rel="stylesheet" />
           { /* eslint-disable react/no-danger */ }
           <style dangerouslySetInnerHTML={{ __html: GLOBAL_CSS + renderMeta.css }} />

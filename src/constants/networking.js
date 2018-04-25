@@ -1,3 +1,4 @@
+// @flow
 export default undefined
 
 const isProduction = process.env.NODE_ENV === 'production'
