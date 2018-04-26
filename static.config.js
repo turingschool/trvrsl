@@ -19,7 +19,7 @@ const getDocs = () => {
 }
 
 export default {
-  siteRoot: 'https://traversalconf.com',
+  siteRoot: 'http://traversalconf.com',
   paths: { devDist: '.scratch/dev-server' },
   Document,
   renderToHtml: async (render: (*) => string, Comp: ComponentType<*>, meta: RenderMeta) => {
