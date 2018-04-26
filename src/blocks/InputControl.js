@@ -33,7 +33,7 @@ const InputControl = ({
   value,
   ...props
 }: Props) => (
-  <Label htmlFor={name}>
+  <Label htmlFor={`mce-${name}`}>
     <Input
       aria-label={label}
       id={name}

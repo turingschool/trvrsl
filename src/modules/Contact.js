@@ -2,8 +2,9 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styled from 'react-emotion'
-import { compose, pure, withHandlers, withStateHandlers } from 'recompose'
+import { compose, pure, withStateHandlers } from 'recompose'
 import { FORMS } from '../constants/en'
+import { CONTACT_ACTION } from '../constants/networking'
 import assignMarkdownHeadings from '../lib/assignMarkdownHeadings'
 import InputControl from '../blocks/InputControl'
 import Article from '../elements/Article'
@@ -29,33 +30,31 @@ const Actions = styled.div({
   justifyContent: 'flex-end',
 })
 
-const PillButton = PillLink.withComponent('button')
+const PillButton = PillLink.withComponent('input')
 
 // -------------------------------------
 
 type Props = {
-  emailAddress: string,
+  EMAIL: string,
   isFormValid: boolean,
-  fullName: string,
+  FULLNAME: string,
   handleChange: (e: SyntheticInputEvent<*>) => void,
-  handleSubmit: (e: SyntheticInputEvent<*>) => void,
-  question: string,
+  QUESTION: string,
   source: string,
 }
 
 let formElement = null
-const formAction = '/contact'
 const initialState = {
-  emailAddress: '',
-  fullName: '',
+  EMAIL: '',
+  FULLNAME: '',
   isFormValid: false,
-  question: '',
+  QUESTION: '',
 }
 
 const selectForm = () => {
   if (typeof document === 'undefined') { return null }
   if (formElement === null) {
-    formElement = document.body && document.body.querySelector(`form[action="${formAction}"]`)
+    formElement = document.body && document.body.querySelector(`form[action="${CONTACT_ACTION}"]`)
   }
   return formElement
 }
@@ -76,14 +75,6 @@ const withStateUpdates = withStateHandlers(
   },
 )
 
-const withEventHandlers = withHandlers({
-  handleSubmit: props => (e) => {
-    e.preventDefault()
-    // eslint-disable-next-line no-console
-    console.log('handleSubmit', props)
-  },
-})
-
 const Contact = (props: Props) => (
   <Section id="contact">
     <ReactMarkdown
@@ -91,50 +82,62 @@ const Contact = (props: Props) => (
       source={props.source}
     />
     <Form
-      acceptCharset="UTF-8"
-      action={formAction}
+      action={CONTACT_ACTION}
+      className="validate"
       css={{ marginTop: '4rem' }}
-      method="POST"
-      onSubmit={props.handleSubmit}
+      id="mc-embedded-subscribe-form"
+      method="post"
+      name="mc-embedded-subscribe-form"
+      novalidate
+      target="_blank"
     >
       <InputControl
         isRequired
         handleChange={props.handleChange}
         label={FORMS.EMAIL_LABEL}
-        name="emailAddress"
+        name="EMAIL"
         type="email"
         placeholder={FORMS.EMAIL_PLACEHOLDER}
-        value={props.emailAddress}
+        value={props.EMAIL}
       />
       <InputControl
         handleChange={props.handleChange}
         label={FORMS.NAME_LABEL}
-        name="fullName"
+        name="FULLNAME"
         placeholder={FORMS.NAME_PLACEHOLDER}
-        value={props.fullName}
+        value={props.FULLNAME}
       />
       <InputControl
         handleChange={props.handleChange}
         label={FORMS.QUESTION_LABEL}
-        name="question"
+        name="QUESTION"
         placeholder={FORMS.QUESTION_PLACEHOLDER}
-        value={props.question}
+        value={props.QUESTION}
       />
+      <div id="mce-responses">
+        <div className="response" id="mce-error-response" style={{ display: 'none' }} />
+        <div className="response" id="mce-success-response" style={{ display: 'none' }} />
+      </div>
+      <div style={{ position: 'absolute', left: '-5000px' }} aria-hidden="true" >
+        <input type="text" name="b_8080b7a05247f0dee13a0a26f_8979d4869b" tabIndex="-1" value="" />
+      </div>
       <Actions>
         <PillButton
           css={{
-            '.no-touch &:hover': {
-              backgroundColor: '#0091ff',
-            },
+            color: '#fff',
+            cursor: 'pointer',
+            backgroundColor: 'transparent',
+            '.no-touch &:hover': { backgroundColor: '#0091ff' },
           }}
+          type="submit"
+          value={FORMS.SUBMIT_BUTTON_TEXT}
+          name="subscribe"
+          id="mc-embedded-subscribe"
           disabled={!props.isFormValid}
-          onClick={props.handleSubmit}
-        >
-          {FORMS.SUBMIT_BUTTON_TEXT}
-        </PillButton>
+        />
       </Actions>
     </Form>
   </Section>
 )
 
-export default compose(withStateUpdates, withEventHandlers, pure)(Contact)
+export default compose(withStateUpdates, pure)(Contact)
