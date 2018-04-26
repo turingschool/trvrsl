@@ -22,4 +22,4 @@ deployment:
     branch: master
     commands:
       - yarn build
-      - aws s3 sync build/ s3://traversal-website-production --delete
+      - aws s3 sync dist/ s3://traversal-website-production --delete
