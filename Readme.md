@@ -75,5 +75,5 @@ The S3 bucket uses CloudFront as a CDN.
 [prototype]: https://projects.invisionapp.com/share/KFGS3AC83AM#/screens/290389250_Landing
 [rs]: https://react-static.js.org
 [rs_scripts]: https://github.com/nozzle/react-static#quick-start 
-[website]: https://turingschool.github.io/trvrsl
+[website]: http://traversalconf.com
 [yarn]: https://yarnpkg.com
