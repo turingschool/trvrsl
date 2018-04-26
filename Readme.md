@@ -58,8 +58,12 @@ yarn flow
 yarn lint
 ```
 
-[CircleCI][circle] will auto deploy to [gh-pages][pages] when the
-master branch passes.
+[CircleCI][circle] will auto deploy to an S3 bucket when the master branch
+passes.
+
+The S3 bucket uses CloudFront as a CDN.
+
+:raising_hand_woman: if you need access to S3 or CloudFront
 
 <!-- Links -->
 [brew]: https://brew.sh
@@ -68,7 +72,6 @@ master branch passes.
 [lts]: https://github.com/nodejs/Release#nodejs-release-working-group
 [node]: https://nodejs.org
 [npm]: https://www.npmjs.com/get-npm
-[pages]: https://github.com/turingschool/trvrsl/tree/gh-pages
 [prototype]: https://projects.invisionapp.com/share/KFGS3AC83AM#/screens/290389250_Landing
 [rs]: https://react-static.js.org
 [rs_scripts]: https://github.com/nozzle/react-static#quick-start 

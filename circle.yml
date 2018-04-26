@@ -21,6 +21,5 @@ deployment:
   staging:
     branch: master
     commands:
-      - git config --global user.email robots@circleci.com
-      - git config --global user.name CircleCI
-      - yarn deploy
+      - yarn build
+      - aws s3 sync build/ s3://traversal-website-production --delete

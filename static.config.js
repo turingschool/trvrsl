@@ -19,8 +19,7 @@ const getDocs = () => {
 }
 
 export default {
-  siteRoot: 'https://turingschool.github.io',
-  basePath: 'trvrsl',
+  siteRoot: 'https://traversalconf.com',
   paths: { devDist: '.scratch/dev-server' },
   Document,
   renderToHtml: async (render: (*) => string, Comp: ComponentType<*>, meta: RenderMeta) => {

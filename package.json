@@ -1,21 +1,17 @@
 {
-  "name": "trvrsl.com",
+  "name": "traversalconf",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "react-static start",
     "build": "react-static build",
-    "deploy": "gh-pages -m 'gh-pages auto commit [ci skip]' -d dist --repo https://$GITHUB_TOKEN@github.com/turingschool/trvrsl.git",
-    "predeploy": "yarn build",
-    "shipit": "gh-pages -m 'gh-pages auto commit [ci skip]' -d dist",
+    "start": "react-static start",
     "flow": "flow ./src",
     "lint": "eslint ./src "
   },
   "dependencies": {
     "emotion": "9.1.2",
     "emotion-server": "9.1.2",
-    "gh-pages": "1.1.0",
     "humps": "2.0.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",

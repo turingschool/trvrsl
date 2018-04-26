@@ -1,7 +1,6 @@
 // @flow
 import React, { Fragment } from 'react'
 import { withRouteData } from 'react-static'
-import { ASSET_PATH } from '../constants/networking'
 import Attendees from '../modules/Attendees'
 import Contact from '../modules/Contact'
 import Introduction from '../modules/Introduction'
@@ -37,7 +36,7 @@ export default withRouteData((props: Props) => (
     <ImageBreak
       alt="attendees and event information"
       css={{ objectPosition: '50% 0' }}
-      source={`${ASSET_PATH}/attendees-and-event-information.jpg`}
+      source="/attendees-and-event-information.jpg"
     />
     <EventInformation
       source={props.eventInformation}
