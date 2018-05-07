@@ -13,7 +13,7 @@ courses, and growing [Exercism.io](https://exercism.io).
 - [Twitter Link](https://twitter.com/kytrinyx)
 
 ## Tiffani Ashley Bell
-![Tiffani Ashley Bell](https://via.placeholder.com/544x352/000)
+![Tiffani Ashley Bell](/speakers/tiffani-ashley-bell.jpg)
 Tiffani Ashley Bell is an experienced software developer turned Executive Director at The Human Utility. Her team uses technology to ensure that people have the basic utility services they need to survive, even when the odds are stacked against them.
 
 - [Twitter Link](https://twitter.com/tiffani)
