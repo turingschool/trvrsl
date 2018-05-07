@@ -105,7 +105,7 @@ export default (props: Props) => (
       </EventLink>
     </Actions>
     <TextLink to="/anti-harrassment-policy">
-      Anti-Harrassment
+      Our Anti-Harrassment Policy
     </TextLink>
     <LineArt
       alt="trvrsl line art"
