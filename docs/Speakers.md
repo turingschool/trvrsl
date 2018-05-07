@@ -4,7 +4,7 @@ Our speaker lineup reflects the diversity in identity our industry is working
 toward and a broad graph of background, specialization, and expertise.
 
 ## Katrina Owen
-![Katrina Owen](https://via.placeholder.com/544x352/000)
+![Katrina Owen](/speakers/katrina-owen.jpg)
 Katrina sampled careers in ballet, trapeze, and ship-building before
 finding a home in software development. Today she is working in Go and Ruby for
 GitHub when she’s not busy writing books (99 Bottles of OOP), teaching software
