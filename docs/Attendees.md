@@ -1,9 +1,8 @@
 # Attendees
 
 Traversal brings together a diverse, inclusive audience of two hundred professional
-technologists. Part conference and part workshop, we spend two days together in
-a mix of presenter-driven single-topic sessions and collaborative
-discussions/activities.
+technologists. We spend two days together in
+presenter-driven single-topic sessions and opportunities to discuss and interact.
 
 Attendees are software developers across the spectrum from
 UI/UX/Frontend through Backend, Data, and Ops. They primarily work in
