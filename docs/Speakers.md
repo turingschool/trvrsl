@@ -31,7 +31,7 @@ Vaidehi leverages her curiosity to dive deep into highly technical topics, then 
 - [Twitter Link](https://twitter.com/vaidehijoshi)
 
 ## Cat Noone
-![Cat Noone](https://via.placeholder.com/544x352/000)
+![Cat Noone](/speakers/cat-noone.jpg)
 Cat is a lifelong maker with a background in UI/UX. She's building projects like [Stark](http://www.getstark.co/) and [Preggers Guide](https://twitter.com/preggersguide) when she's not busy being CEO of [Iris](http://www.getiris.co/) and mom.
 
 - [Twitter Link](https://twitter.com/imcatnoone)
