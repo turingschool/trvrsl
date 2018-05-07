@@ -19,7 +19,7 @@ Tiffani Ashley Bell is an experienced software developer turned Executive Direct
 - [Twitter Link](https://twitter.com/tiffani)
 
 ## Keavy McMinn
-![Keavy McMinn](https://via.placeholder.com/544x352/000)
+![Keavy McMinn](/speakers/keavy-mcminn.jpg)
 Keavy McMinn utilized an education in studio art to win a cash prize enabling her to buy her first computer, learn HTML, and kick off a long career in software development. Whether it’s helping build GitHub or training for a triathlon, she works to find performance and efficiency while delivering top results.
 
 - [Twitter Link](https://twitter.com/keavy)
