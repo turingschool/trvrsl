@@ -25,7 +25,7 @@ Keavy McMinn utilized an education in studio art to win a cash prize enabling he
 - [Twitter Link](https://twitter.com/keavy)
 
 ## Vaidehi Joshi
-![Vaidehi Joshi](https://via.placeholder.com/544x352/000)
+![Vaidehi Joshi](/speakers/vaidehi-joshi.jpg)
 Vaidehi leverages her curiosity to dive deep into highly technical topics, then enjoys sharing them with the broader community through her work on [BaseCS](https://dev.to/vaidehijoshi/). As a developer at Tilde working on Skylight, she has a front-row seat to watching how great projects struggle and helps customers find their next big breakthrough.
 
 - [Twitter Link](https://twitter.com/vaidehijoshi)
