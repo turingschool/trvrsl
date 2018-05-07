@@ -1,6 +1,6 @@
 # Anti-Harassment Policy
 
-**The Traversal team is dedicated to providing a harassment-free conference experience for everyone regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, or national origin.**
+The Traversal team is dedicated to providing a harassment-free conference experience for everyone regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, or national origin.
 
 We do not tolerate harassment of conference participants in any form. For example, sexual language and imagery are not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled wihtout warning from the conference at the discretion of the conference organizers.
 
