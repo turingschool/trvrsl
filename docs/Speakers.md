@@ -7,7 +7,7 @@ toward and a broad graph of background, specialization, and expertise.
 ![Katrina Owen](/speakers/katrina-owen.jpg)
 Katrina sampled careers in ballet, trapeze, and ship-building before
 finding a home in software development. Today she is working in Go and Ruby for
-GitHub when she’s not busy writing books ([99 Bottles of OOP](https://www.sandimetz.com/99bottles/)), teaching software
+GitHub when she’s not busy writing books like [99 Bottles of OOP](https://www.sandimetz.com/99bottles/), teaching software
 courses, and growing [Exercism.io](https://exercism.io).
 
 - [Twitter Link](https://twitter.com/kytrinyx)
