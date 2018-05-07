@@ -9,7 +9,7 @@
 - **11:50 AM** _40 minutes_ Session with Keavy McMinn
 - **12:30 PM** _60 minutes_ Lunch
 - **1:30 PM** _20 minutes_ Reconvene
-- **1:50 PM** _40 minutes_ Session To Be Announced
+- **1:50 PM** _40 minutes_ Session with Katrina Owen
 - **2:40 PM** _40 minutes_ Session To Be Announced
 - **3:30 PM** _40 minutes_ Session To Be Announced
 - **4:20 PM** _10 minutes_ Day 1 Closing
