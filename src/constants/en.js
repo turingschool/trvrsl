@@ -12,7 +12,7 @@ export const FORMS = Object.freeze({
 })
 
 export const META = Object.freeze({
-  DESCRIPTION: 'trvrsl description',
+  DESCRIPTION: 'Traversal (Sept. 28-29, 2018) is a two-day conference bringing together technologists from many disciplines to share ideas.',
   FAVICON: '/favicon.ico',
   ICON: '/favicon.svg',
   IMAGE: '/apple-touch-icon.png',
