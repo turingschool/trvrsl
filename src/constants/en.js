@@ -18,6 +18,6 @@ export const META = Object.freeze({
   IMAGE: '/apple-touch-icon.png',
   MANIFEST: '/manifest.json',
   NAME: 'trvrsl name',
-  TITLE: 'trvrsl title',
+  TITLE: 'Traversal 2018',
   URL: 'https://traversalconf.com',
 })
