@@ -37,7 +37,7 @@ Cat is a lifelong maker with a background in UI/UX. She's building projects like
 - [Twitter Link](https://twitter.com/imcatnoone)
 
 ## Aaron Patterson
-![Aaron Patterson](https://via.placeholder.com/544x352/000)
+![Aaron Patterson](/speakers/aaron-patterson.jpg)
 Legendary curer of meats and occassional programmer, Aaron is notorious for his scientific approach to solving the problems that developers didn't realize they had. The only person on earth who understand both the Matz Ruby Interpreter and ActiveRecord, Aaron also manages a team of cats and attempts to speak Japanese.
 
 - [Twitter Link](https://twitter.com/tenderlove)
