@@ -1,7 +1,6 @@
 # Speakers
 
-Our speaker lineup reflects the diversity in identity our industry is working
-toward and a broad graph of background, specialization, and expertise.
+Our speaker lineup reflects a broad graph of background, specialization, and expertise.
 
 ## Katrina Owen
 ![Katrina Owen](/speakers/katrina-owen.jpg)
