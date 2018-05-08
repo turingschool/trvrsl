@@ -16,7 +16,9 @@ export const META = Object.freeze({
   FAVICON: '/favicon.ico',
   ICON: '/favicon.svg',
   IMAGE: '/apple-touch-icon.png',
-  TWITTER_IMAGE: 'https://traversalconf.com/apple-touch-icon.png'
+  TWITTER_IMAGE: 'https://traversalconf.com/apple-touch-icon.png',
+  IMAGE_WIDTH: '512',
+  IMAGE_HEIGHT: '512',
   MANIFEST: '/manifest.json',
   NAME: 'Traversal',
   TITLE: 'Traversal 2018: September 27 & 28 in Denver, CO',
