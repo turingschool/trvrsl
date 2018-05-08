@@ -43,7 +43,7 @@ export default class extends React.Component<Props> {
           <meta property="og:image" content={META.IMAGE} />
           <meta property="og:url" content={META.URL} />
           <meta property="og:description" content={META.DESCRIPTION} />
-          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:card" content={META.IMAGE} />
           <meta name="referrer" content="always" />
           <meta name="robots" content="index, follow" />
           <link href={META.ICON} color={COLOR} rel="mask-icon" />
