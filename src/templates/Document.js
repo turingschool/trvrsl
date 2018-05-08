@@ -40,7 +40,7 @@ export default class extends React.Component<Props> {
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content={META.NAME} />
           <meta property="og:title" content={META.TITLE} />
-          <meta property="og:image" content={META.IMAGE} />
+          <meta property="og:image" content={META.TWITTER_IMAGE} />
           <meta property="og:url" content={META.URL} />
           <meta property="og:description" content={META.DESCRIPTION} />
           <meta name="twitter:card" content={META.IMAGE} />
