@@ -20,7 +20,7 @@
 - **9:00 AM** _60 minutes_ Registration & Breakfast
 - **10:00 AM** _10 minutes_ Day 2 Welcome with Jeff Casimir
 - **10:15 AM** _40 minutes_ Session with Aaron Patterson
-- **11:00 AM** _40 minutes_ Session with Shana Moore
+- **11:00 AM** _40 minutes_ Session To Be Announced
 - **11:50 AM** _40 minutes_ Session with Cat Noone
 - **12:30 PM** _60 minutes_ Lunch
 - **1:30 PM** _20 minutes_ Reconvene
