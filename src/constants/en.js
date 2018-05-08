@@ -18,6 +18,8 @@ export const META = Object.freeze({
   IMAGE: 'https://traversalconf.com/apple-touch-icon.png',
   IMAGE_WIDTH: '512',
   IMAGE_HEIGHT: '512',
+  CARD_TYPE: 'summary_large_image',
+  CARD_SITE: '@traversalconf',
   MANIFEST: '/manifest.json',
   NAME: 'Traversal',
   TITLE: 'Traversal 2018: September 27 & 28 in Denver, CO',
