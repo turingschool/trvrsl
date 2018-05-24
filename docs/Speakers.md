@@ -40,3 +40,9 @@ Cat Noone is a designer with a focus on building products that maximize the way 
 Legendary curer of meats and occassional programmer, Aaron is notorious for his scientific approach to solving the problems that developers didn't realize they had. The only person on earth who understand both the Matz Ruby Interpreter and ActiveRecord, Aaron also manages a team of cats and attempts to speak Japanese.
 
 - [Twitter Link](https://twitter.com/tenderlove)
+
+## Marty Haught
+![Marty Haught](/speakers/marty-haught.png)
+Software wrangler/entrepreneur that runs [Haught Codeworks](https://haughtcodeworks.com/) building both great software and teams. Marty is actively involved in the software community, most notably as an organizer of [RailsConf](http://railsconf.com/) and [RubyConf](http://rubyconf.org/). Beyond his love for the outdoors, food and music, Marty is busy raising his two children with his lovely wife and enjoying life.
+
+- [Twitter Link](https://twitter.com/mghaught)
