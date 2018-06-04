@@ -7,7 +7,7 @@ Our speaker lineup reflects a broad graph of background, specialization, and exp
 Katrina sampled careers in ballet, trapeze, and ship-building before
 finding a home in software development. Today she is working in Go and Ruby for
 GitHub when she’s not busy writing books like [99 Bottles of OOP](https://www.sandimetz.com/99bottles/), teaching software
-courses, and growing [Exercism.io](https://exercism.io).
+courses, and growing [Exercism.io](http://exercism.io).
 
 - [Twitter Link](https://twitter.com/kytrinyx)
 
@@ -31,7 +31,7 @@ Vaidehi leverages her curiosity to dive deep into highly technical topics, then 
 
 ## Cat Noone
 ![Cat Noone](/speakers/cat-noone.jpg)
-Cat is a lifelong maker with a background in UI/UX. She's building projects like [Stark](http://www.getstark.co/) and [Preggers Guide](https://twitter.com/preggersguide) when she's not busy being CEO of [Iris](http://www.getiris.co/) and mom.
+Cat Noone is a designer with a focus on building products that maximize the way we connect and help others. Today she's CEO of [Iris Health](https://twitter.com/irisapp); they’re re-shaping emergency health to help individuals take their health back into their own hands in a seamless, dependable and individualized way. She's an advocate for side-projects, Mother of Dragons, bookworm and cookie connoisseur.
 
 - [Twitter Link](https://twitter.com/imcatnoone)
 
@@ -40,3 +40,9 @@ Cat is a lifelong maker with a background in UI/UX. She's building projects like
 Legendary curer of meats and occassional programmer, Aaron is notorious for his scientific approach to solving the problems that developers didn't realize they had. The only person on earth who understand both the Matz Ruby Interpreter and ActiveRecord, Aaron also manages a team of cats and attempts to speak Japanese.
 
 - [Twitter Link](https://twitter.com/tenderlove)
+
+## Marty Haught
+![Marty Haught](/speakers/marty-haught.png)
+Software wrangler/entrepreneur that runs [Haught Codeworks](https://haughtcodeworks.com/) building both great software and teams. Marty is actively involved in the software community, most notably as an organizer of [RailsConf](http://railsconf.com/) and [RubyConf](http://rubyconf.org/). Beyond his love for the outdoors, food and music, Marty is busy raising his two children with his lovely wife and enjoying life.
+
+- [Twitter Link](https://twitter.com/mghaught)

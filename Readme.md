@@ -68,12 +68,12 @@ The S3 bucket uses CloudFront as a CDN.
 <!-- Links -->
 [brew]: https://brew.sh
 [circle]: https://circleci.com/gh/turingschool/trvrsl
-[guiceworks]: http://www.guice.works
+[guiceworks]: https://www.guice.works
 [lts]: https://github.com/nodejs/Release#nodejs-release-working-group
 [node]: https://nodejs.org
 [npm]: https://www.npmjs.com/get-npm
 [prototype]: https://projects.invisionapp.com/share/KFGS3AC83AM#/screens/290389250_Landing
 [rs]: https://react-static.js.org
 [rs_scripts]: https://github.com/nozzle/react-static#quick-start 
-[website]: http://traversalconf.com
+[website]: https://traversalconf.com
 [yarn]: https://yarnpkg.com
