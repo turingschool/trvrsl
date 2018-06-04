@@ -22,6 +22,6 @@ export const META = Object.freeze({
   CARD_SITE: '@traversalconf',
   MANIFEST: '/manifest.json',
   NAME: 'Traversal',
-  TITLE: 'Traversal 2018: September 27 & 28 in Denver, CO',
+  TITLE: 'Traversal 2019: March 7 & 8 in Denver, CO',
   URL: 'https://traversalconf.com',
 })

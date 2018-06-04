@@ -1,6 +1,6 @@
 # Schedule
 
-## Thursday September 27
+## Thursday March 7
 
 - **9:00 AM** _60 minutes_ Registration & Breakfast
 - **10:00 AM** _10 minutes_ Welcome with Jeff Casimir
@@ -15,7 +15,7 @@
 - **4:20 PM** _10 minutes_ Day 1 Closing
 - **4:30 PM** _120 minutes_ Social & Happy Hour
 
-## Friday September 28
+## Friday March 8
 
 - **9:00 AM** _60 minutes_ Registration & Breakfast
 - **10:00 AM** _10 minutes_ Day 2 Welcome with Jeff Casimir
