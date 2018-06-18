@@ -46,3 +46,9 @@ Legendary curer of meats and occassional programmer, Aaron is notorious for his 
 Software wrangler/entrepreneur that runs [Haught Codeworks](https://haughtcodeworks.com/) building both great software and teams. Marty is actively involved in the software community, most notably as an organizer of [RailsConf](http://railsconf.com/) and [RubyConf](http://rubyconf.org/). Beyond his love for the outdoors, food and music, Marty is busy raising his two children with his lovely wife and enjoying life.
 
 - [Twitter Link](https://twitter.com/mghaught)
+
+## Nadia Odunayo
+![Nadia Odunayo](/speakers/nadia-odunayo.jpg)
+Nadia is Co-Founder of [CodeNewbie](https://www.codenewbie.org/), the most supportive community of programmers and people learning to code. She has taught good engineering practices through pair programming at Pivotal Labs and Pivotal Cloud Foundry. She originally learnt to code at [Makers Academy](https://makers.tech/become/makers-academy/) in London and she maintains [speakerline.io](https://speakerline.io/) in her spare time.
+
+- [Twitter Link](https://twitter.com/nodunayo)
