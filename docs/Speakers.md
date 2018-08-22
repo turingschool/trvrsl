@@ -52,3 +52,9 @@ Software wrangler/entrepreneur that runs [Haught Codeworks](https://haughtcodewo
 Nadia is Co-Founder of [CodeNewbie](https://www.codenewbie.org/), the most supportive community of programmers and people learning to code. She has taught good engineering practices through pair programming at Pivotal Labs and Pivotal Cloud Foundry. She originally learnt to code at [Makers Academy](https://makers.tech/become/makers-academy/) in London and she maintains [speakerline.io](https://speakerline.io/) in her spare time.
 
 - [Twitter Link](https://twitter.com/nodunayo)
+
+## Nickolas Means
+![Nickolas Means](/speakers/nickolas-means.jpg)
+Nickolas Means loves nothing more than a story of engineering triumph (except maybe a story of engineering disaster). When he's not stuck in a Wikipedia loop reading about plane crashes, he leads the engineering team at Muve Health, helping build software to improve the joint replacement experience for patients and caregivers. He works remotely from Austin, TX, and spends most of his spare time hanging out with his wife and kids, going for a run, or trying to brew the perfect cup of coffee.
+
+- [Twitter Link](https://twitter.com/nmeans)
