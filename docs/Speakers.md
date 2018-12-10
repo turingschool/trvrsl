@@ -58,3 +58,9 @@ Nadia is the CTO at [CodeNewbie](https://www.codenewbie.org/), the most supporti
 Nickolas Means loves nothing more than a story of engineering triumph (except maybe a story of engineering disaster). When he's not stuck in a Wikipedia loop reading about plane crashes, he leads the engineering team at Muve Health, helping build software to improve the joint replacement experience for patients and caregivers. He works remotely from Austin, TX, and spends most of his spare time hanging out with his wife and kids, going for a run, or trying to brew the perfect cup of coffee.
 
 - [Twitter Link](https://twitter.com/nmeans)
+
+## Stefania Druga
+![Stefania Druga](/speakers/stefania-druga.jpg)
+Stefania Druga is the creator of the [Cognimates](http://cognimates.me/) platform for AI education and recent graduate from Personal Robots Group at MIT Media Lab. Currently, she is an AI Creative Learning Researcher at NYU ITP and RISD, teaching graduate students how to hack smart toys for AI education. She is also leading [Hackidemia](http://hackidemia.com/), [Afrimakers](http://afrimakers.org/) and [MakerCamp](https://www.youtube.com/watch?v=HD2THaHnT7I).
+
+- [Twitter Link](https://twitter.com/stefania_druga)
