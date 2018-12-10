@@ -11,7 +11,7 @@
 - **1:30 PM** _20 minutes_ Reconvene
 - **1:50 PM** _40 minutes_ Session with Katrina Owen
 - **2:40 PM** _40 minutes_ Session with Marty Haught
-- **3:30 PM** _40 minutes_ Session with Nick Means
+- **3:30 PM** _40 minutes_ Session with Nickolas Means
 - **4:20 PM** _10 minutes_ Day 1 Closing
 - **4:30 PM** _120 minutes_ Social & Happy Hour
 
