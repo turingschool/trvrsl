@@ -64,3 +64,9 @@ Nickolas Means loves nothing more than a story of engineering triumph (except ma
 Stefania Druga is the creator of the [Cognimates](http://cognimates.me/) platform for AI education and recent graduate from Personal Robots Group at MIT Media Lab. Currently, she is an AI Creative Learning Researcher at NYU ITP and RISD, teaching graduate students how to hack smart toys for AI education. She is also leading [Hackidemia](http://hackidemia.com/), [Afrimakers](http://afrimakers.org/) and [MakerCamp](https://www.youtube.com/watch?v=HD2THaHnT7I).
 
 - [Twitter Link](https://twitter.com/stefania_druga)
+
+## Louisa Barrett
+![Louisa Barrett](/speakers/louisa-barrett.jpg)
+Louisa is the Director of the Front-End Engineering program at the Turing School of Software and Design. She is the former director of Colorado for Women Who Code and past chapter leader for Girl Develop It Denver/Boulder. She began her career as an illustrator/graphic designer, and a passion for understanding people lead her to programming. She has a soft spot for UX, typography, and correcting students when they refer to an assignment operator as an "equals sign".
+
+- [Twitter Link](https://twitter.com/weesie_b)
