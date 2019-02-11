@@ -70,3 +70,7 @@ Stefania Druga is the creator of the [Cognimates](http://cognimates.me/) platfor
 Louisa is the Director of the Front-End Engineering program at the Turing School of Software and Design. She is the former director of Colorado for Women Who Code and past chapter leader for Girl Develop It Denver/Boulder. She began her career as an illustrator/graphic designer, and a passion for understanding people lead her to programming. She has a soft spot for UX, typography, and correcting students when they refer to an assignment operator as an "equals sign".
 
 - [Twitter Link](https://twitter.com/weesie_b)
+
+## Jen Pahlka
+![Jen Pahlka](/speakers/jen-pahlka.jpg)
+Jen is the founder and Executive Director of [Code for America](https://en.wikipedia.org/wiki/Code_for_America). Over the last decade she has worked to help government use technology to better serve and empower its citizens. After years in the Obama White House working to found the United States Digital Service, Jen has returned to Code for America to push forward the modernization of local governments.
