@@ -1,6 +1,6 @@
 # Event Information
 
-Colorado's tech community is vibrant thanks to an increasingly broad network of people and skills. Traversal happens in the  heart of Denver, surrounded by the energy and companies that call Colorado home.
+Colorado's tech community is vibrant thanks to an increasingly broad network of people and skills. Traversal happens in the  heart of Denver, surrounded by the energy and companies that call Colorado home. Larimer Square helped spark the redevelopment of Downtown Denver and we're excited to bring Traversal to Larimer Social.
 
 Note that our location is on the second floor but is wheelchair accessible. Parking passes will be provided.
 
