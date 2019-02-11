@@ -72,5 +72,5 @@ Louisa is the Director of the Front-End Engineering program at the Turing School
 - [Twitter Link](https://twitter.com/weesie_b)
 
 ## Jen Pahlka
-![Jen Pahlka](/speakers/jen-pahlka.jpg)
+![Jen Pahlka](/speakers/jennifer-pahlka.jpg)
 Jen is the founder and Executive Director of [Code for America](https://en.wikipedia.org/wiki/Code_for_America). Over the last decade she has worked to help government use technology to better serve and empower its citizens. After years in the Obama White House working to found the United States Digital Service, Jen has returned to Code for America to push forward the modernization of local governments.
