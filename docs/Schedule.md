@@ -26,5 +26,5 @@
 - **1:30 PM** _20 minutes_ Reconvene
 - **1:50 PM** _40 minutes_ Session with Louisa Barrett
 - **2:40 PM** _40 minutes_ Session with Stefania Druga
-- **3:30 PM** _40 minutes_ Session To Be Announced
+- **3:30 PM** _40 minutes_ Fireside Chat with Jen Pahlka
 - **4:20 PM** _10 minutes_ Conference Closing & Thanks
