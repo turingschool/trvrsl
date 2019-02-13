@@ -29,12 +29,6 @@ Vaidehi leverages her curiosity to dive deep into highly technical topics, then 
 
 - [Twitter Link](https://twitter.com/vaidehijoshi)
 
-## Cat Noone
-![Cat Noone](/speakers/cat-noone.jpg)
-Cat Noone is a designer with a focus on building products that maximize the way we connect and help others. Today she's CEO of [Iris Health](https://twitter.com/irisapp); they’re re-shaping emergency health to help individuals take their health back into their own hands in a seamless, dependable and individualized way. She's an advocate for side-projects, Mother of Dragons, bookworm and cookie connoisseur.
-
-- [Twitter Link](https://twitter.com/imcatnoone)
-
 ## Aaron Patterson
 ![Aaron Patterson](/speakers/aaron-patterson.jpg)
 Legendary curer of meats and occassional programmer, Aaron is notorious for his scientific approach to solving the problems that developers didn't realize they had. The only person on earth who understand both the Matz Ruby Interpreter and ActiveRecord, Aaron also manages a team of cats and attempts to speak Japanese.
