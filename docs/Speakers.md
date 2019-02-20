@@ -43,7 +43,7 @@ Software wrangler/entrepreneur that runs [Haught Codeworks](https://haughtcodewo
 
 ## Nadia Odunayo
 ![Nadia Odunayo](/speakers/nadia-odunayo.jpg)
-Nadia is the CTO at [CodeNewbie](https://www.codenewbie.org/), the most supportive community of programmers and people learning to code. Before that, she co-directed Ignition Works, a software consultancy that helped firms manage their cloud platforms, and she worked at Pivotal as a software engineer. She originally learnt to code at [Makers Academy](https://makers.tech/become/makers-academy/) in London and she maintains [speakerline.io](https://speakerline.io/) in her spare time.
+Nadia is the CEO at The StoryGraph, a company exploring the intersection beteween storytelling and software. Before that, she co-directed Ignition Works, a software consultancy that helped firms manage their cloud platforms, and she worked at Pivotal as a software engineer. She originally learnt to code at [Makers Academy](https://makers.tech/become/makers-academy/) in London and she maintains [speakerline.io](https://speakerline.io/) in her spare time.
 
 - [Twitter Link](https://twitter.com/nodunayo)
 
