@@ -29,12 +29,6 @@ Vaidehi leverages her curiosity to dive deep into highly technical topics, then 
 
 - [Twitter Link](https://twitter.com/vaidehijoshi)
 
-## Cat Noone
-![Cat Noone](/speakers/cat-noone.jpg)
-Cat Noone is a designer with a focus on building products that maximize the way we connect and help others. Today she's CEO of [Iris Health](https://twitter.com/irisapp); they’re re-shaping emergency health to help individuals take their health back into their own hands in a seamless, dependable and individualized way. She's an advocate for side-projects, Mother of Dragons, bookworm and cookie connoisseur.
-
-- [Twitter Link](https://twitter.com/imcatnoone)
-
 ## Aaron Patterson
 ![Aaron Patterson](/speakers/aaron-patterson.jpg)
 Legendary curer of meats and occassional programmer, Aaron is notorious for his scientific approach to solving the problems that developers didn't realize they had. The only person on earth who understand both the Matz Ruby Interpreter and ActiveRecord, Aaron also manages a team of cats and attempts to speak Japanese.
@@ -70,3 +64,7 @@ Stefania Druga is the creator of the [Cognimates](http://cognimates.me/) platfor
 Louisa is the Director of the Front-End Engineering program at the Turing School of Software and Design. She is the former director of Colorado for Women Who Code and past chapter leader for Girl Develop It Denver/Boulder. She began her career as an illustrator/graphic designer, and a passion for understanding people lead her to programming. She has a soft spot for UX, typography, and correcting students when they refer to an assignment operator as an "equals sign".
 
 - [Twitter Link](https://twitter.com/weesie_b)
+
+## Jen Pahlka
+![Jen Pahlka](/speakers/jennifer-pahlka.jpg)
+Jen is the founder and Executive Director of [Code for America](https://en.wikipedia.org/wiki/Code_for_America). Over the last decade she has worked to help government use technology to better serve and empower its citizens. After years in the Obama White House working to found the United States Digital Service, Jen has returned to Code for America to push forward the modernization of local governments.
