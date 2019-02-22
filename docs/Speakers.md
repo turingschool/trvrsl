@@ -31,7 +31,7 @@ Vaidehi leverages her curiosity to dive deep into highly technical topics, then 
 
 ## Aaron Patterson
 ![Aaron Patterson](/speakers/aaron-patterson.jpg)
-Legendary curer of meats and occassional programmer, Aaron is notorious for his scientific approach to solving the problems that developers didn't realize they had. The only person on earth who understand both the Matz Ruby Interpreter and ActiveRecord, Aaron also manages a team of cats and attempts to speak Japanese.
+Legendary curer of meats and occasional programmer, Aaron is notorious for his scientific approach to solving the problems that developers didn't realize they had. The only person on earth who understands both the Matz Ruby Interpreter and ActiveRecord, Aaron also manages a team of cats and attempts to speak Japanese.
 
 - [Twitter Link](https://twitter.com/tenderlove)
 
@@ -61,7 +61,7 @@ Stefania Druga is the creator of the [Cognimates](http://cognimates.me/) platfor
 
 ## Louisa Barrett
 ![Louisa Barrett](/speakers/louisa-barrett.jpg)
-Louisa is the Director of the Front-End Engineering program at the Turing School of Software and Design. She is the former director of Colorado for Women Who Code and past chapter leader for Girl Develop It Denver/Boulder. She began her career as an illustrator/graphic designer, and a passion for understanding people lead her to programming. She has a soft spot for UX, typography, and correcting students when they refer to an assignment operator as an "equals sign".
+Louisa is the Director of the Front-End Engineering program at the Turing School of Software and Design. She is the former director of Colorado for Women Who Code and past chapter leader for Girl Develop It Denver/Boulder. She began her career as an illustrator/graphic designer, and a passion for understanding people led her to programming. She has a soft spot for UX, typography, and correcting students when they refer to an assignment operator as an "equals sign".
 
 - [Twitter Link](https://twitter.com/weesie_b)
 
