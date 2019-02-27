@@ -11,12 +11,6 @@ courses, and growing [Exercism.io](http://exercism.io).
 
 - [Twitter Link](https://twitter.com/kytrinyx)
 
-## Tiffani Ashley Bell
-![Tiffani Ashley Bell](/speakers/tiffani-ashley-bell.jpg)
-Tiffani Ashley Bell is an experienced software developer turned Executive Director at The Human Utility. Her team uses technology to ensure that people have the basic utility services they need to survive, even when the odds are stacked against them.
-
-- [Twitter Link](https://twitter.com/tiffani)
-
 ## Keavy McMinn
 ![Keavy McMinn](/speakers/keavy-mcminn.jpg)
 Keavy McMinn utilized an education in studio art to win a cash prize enabling her to buy her first computer, learn HTML, and kick off a long career in software development. Whether it’s helping build GitHub or training for a triathlon, she works to find performance and efficiency while delivering top results.
