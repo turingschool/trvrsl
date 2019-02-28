@@ -21,7 +21,7 @@
 - **10:00 AM** _10 minutes_ Day 2 Welcome with Jeff Casimir
 - **10:15 AM** _40 minutes_ Session with Aaron Patterson
 - **11:00 AM** _40 minutes_ "The Case of the Missing Method" with Nadia Odunayo
-- **11:50 AM** _40 minutes_ Session to be Announced
+- **11:50 AM** _40 minutes_ Session with Adam Cuppy
 - **12:30 PM** _60 minutes_ Lunch
 - **1:30 PM** _20 minutes_ Reconvene
 - **1:50 PM** _40 minutes_ Session with Louisa Barrett
