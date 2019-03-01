@@ -5,7 +5,7 @@
 - **9:00 AM** _60 minutes_ Registration & Breakfast
 - **10:00 AM** _10 minutes_ Welcome with Jeff Casimir
 - **10:15 AM** _40 minutes_ "Learning How to Learn" with Vaidehi Joshi
-- **11:00 AM** _40 minutes_ Session to be Announced
+- **11:00 AM** _40 minutes_ Session with Madison Kerndt
 - **11:50 AM** _40 minutes_ "How to Mend a Broken Reality" with Keavy McMinn
 - **12:30 PM** _60 minutes_ Lunch
 - **1:30 PM** _20 minutes_ Reconvene
