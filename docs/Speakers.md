@@ -43,7 +43,7 @@ Nadia is the CEO at The StoryGraph, a company exploring the intersection betewee
 
 ## Nickolas Means
 ![Nickolas Means](/speakers/nickolas-means.jpg)
-Nickolas Means loves nothing more than a story of engineering triumph (except maybe a story of engineering disaster). When he's not stuck in a Wikipedia loop reading about plane crashes, he leads the engineering team at Muve Health, helping build software to improve the joint replacement experience for patients and caregivers. He works remotely from Austin, TX, and spends most of his spare time hanging out with his wife and kids, going for a run, or trying to brew the perfect cup of coffee.
+Nickolas Means loves nothing more than a story of engineering triumph (except maybe a story of engineering disaster). When he’s not stuck in a Wikipedia loop reading about plane crashes, he spends his days as a Senior Engineering Manager at GitHub. He works remotely from Austin, TX, and spends most of his spare time hanging out with his wife and kids, going for a run, or trying to brew the perfect cup of coffee.
 
 - [Twitter Link](https://twitter.com/nmeans)
 
