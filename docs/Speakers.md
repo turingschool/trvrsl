@@ -62,3 +62,9 @@ Louisa is the Director of the Front-End Engineering program at the Turing School
 ## Jen Pahlka
 ![Jen Pahlka](/speakers/jennifer-pahlka.jpg)
 Jen is the founder and Executive Director of [Code for America](https://en.wikipedia.org/wiki/Code_for_America). Over the last decade she has worked to help government use technology to better serve and empower its citizens. After years in the Obama White House working to found the United States Digital Service, Jen has returned to Code for America to push forward the modernization of local governments.
+
+## Adam Cuppy
+![Adam Cuppy](/speakers/adam-cuppy.jpg)
+Adam is a co-founder and COO of [ZEAL](https://codingzeal.com/?ref=trvrsl-2019) a principle-driven development agency. Adam is a professional stage actor, who moved into marketing (to make a living) and became the VP of Creative and Online Media for [Dutch Bros.](https://dutchbros.com), a large national coffee chain. Eventually, he found his way into software engineering and entrepreneurship. Other than computering, he's training to finish a 140-mile Ironman Triathlon, which is a big deal for him, because he has only one lung.
+
+- [Twitter Link](https://twitter.com/adamcuppy)
