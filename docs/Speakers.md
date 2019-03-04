@@ -62,3 +62,9 @@ Louisa is the Director of the Front-End Engineering program at the Turing School
 ## Jen Pahlka
 ![Jen Pahlka](/speakers/jennifer-pahlka.jpg)
 Jen is the founder and Executive Director of [Code for America](https://en.wikipedia.org/wiki/Code_for_America). Over the last decade she has worked to help government use technology to better serve and empower its citizens. After years in the Obama White House working to found the United States Digital Service, Jen has returned to Code for America to push forward the modernization of local governments.
+
+## Madison Kerndt
+![Madison Kerndt](/speakers/madison-kerndt.jpg)
+Madison is on a mission to help developers build secure software and to make the digital world a safer place for everyone. She is a Software Engineer and Developer Evangelist at IronCore Labs (https://ironcorelabs.com/), makers of turnkey data security solutions for developers and empowers Enterprises to control their data wherever it lives. Madison has deep roots in the startup community and has worked with multiple startups as a front-end developer, designer, and marketer. She enjoys building, creating, teaching, and contemplating the interplays between technology, community, privacy, and digital security.
+
+- [Twitter Link](https://twitter.com/cipher_sift)
