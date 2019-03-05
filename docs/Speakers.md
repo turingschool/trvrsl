@@ -68,3 +68,9 @@ Jen is the founder and Executive Director of [Code for America](https://en.wikip
 Adam is a co-founder and COO of [ZEAL](https://codingzeal.com/?ref=trvrsl-2019) a principle-driven development agency. Adam is a professional stage actor, who moved into marketing (to make a living) and became the VP of Creative and Online Media for [Dutch Bros.](https://dutchbros.com), a large national coffee chain. Eventually, he found his way into software engineering and entrepreneurship. Other than computering, he's training to finish a 140-mile Ironman Triathlon, which is a big deal for him, because he has only one lung.
 
 - [Twitter Link](https://twitter.com/adamcuppy)
+
+## Madison Kerndt
+![Madison Kerndt](/speakers/madison-kerndt.jpg)
+Madison is on a mission to help developers build secure software and to make the digital world a safer place for everyone. She is a Software Engineer and Developer Evangelist at IronCore Labs (https://ironcorelabs.com/), makers of turnkey data security solutions for developers and empowers Enterprises to control their data wherever it lives. Madison has deep roots in the startup community and has worked with multiple startups as a front-end developer, designer, and marketer. She enjoys building, creating, teaching, and contemplating the interplays between technology, community, privacy, and digital security.
+
+- [Twitter Link](https://twitter.com/cipher_sift)
